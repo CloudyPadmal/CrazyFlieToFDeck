@@ -37,12 +37,12 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title "CrazyFlie2.0"
-Date "2018-07-24"
+Title ""
+Date ""
 Rev ""
 Comp ""
-Comment1 "Expansion Deck"
-Comment2 "VL53L0X Sensors"
+Comment1 ""
+Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
@@ -127,7 +127,7 @@ SCL
 Text GLabel 1930 7210 2    39   Input ~ 0
 SDA
 Text GLabel 1930 7510 2    39   Input ~ 0
-V2v8
+VCC
 Text GLabel 1930 7410 2    39   Input ~ 0
 RX1
 Text GLabel 1930 7310 2    39   Input ~ 0
@@ -230,21 +230,4 @@ Text GLabel 3755 3525 0    39   Input ~ 0
 VCC
 Wire Wire Line
 	3755 3525 3915 3525
-$Comp
-L TPS731XX U?
-U 1 1 5B576830
-P 3935 7120
-F 0 "U?" H 3935 6810 59  0000 C CNN
-F 1 "TPS731XX" H 3935 7410 59  0000 C CNN
-F 2 "" H 3965 7120 79  0001 C CNN
-F 3 "" H 3965 7120 79  0001 C CNN
-	1    3935 7120
-	1    0    0    -1  
-$EndComp
-Text Notes 7925 7115 0    59   ~ 0
-Please note the following about the Crazyflie expansion connectors:\n * VCOM is power directly from the battery/USB and is not regulated\n * VCC is regulated to 3.0V\n * VUSB is connected directly to the USB which means this will supply \nat 4.5-5.5V when the USB is connected and can be used for charging\nthe battery when the USB is not connected
-Text GLabel 4555 7045 2    39   Input ~ 0
-VCC
-Wire Wire Line
-	4555 7045 4385 7045
 $EndSCHEMATC
