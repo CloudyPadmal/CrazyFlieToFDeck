@@ -77,7 +77,7 @@ U 1 1 5B57464F
 P 910 7110
 F 0 "J1" H 910 7610 50  0000 C CNN
 F 1 "RIGHT" H 910 6510 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x10_Pitch2.00mm" H 910 7110 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x10_Pitch2.00mm_SMD_Pin1Right" H 910 7110 50  0001 C CNN
 F 3 "" H 910 7110 50  0001 C CNN
 	1    910  7110
 	-1   0    0    1   
@@ -88,7 +88,7 @@ U 1 1 5B574892
 P 1730 7110
 F 0 "J2" H 1730 7610 50  0000 C CNN
 F 1 "LEFT" H 1730 6510 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x10_Pitch2.00mm" H 1730 7110 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x10_Pitch2.00mm_SMD_Pin1Left" H 1730 7110 50  0001 C CNN
 F 3 "" H 1730 7110 50  0001 C CNN
 	1    1730 7110
 	-1   0    0    1   
@@ -263,7 +263,7 @@ U 1 1 5B575069
 P 8660 1080
 F 0 "J9" H 8505 1400 50  0000 C CNN
 F 1 "Sensor07" H 8510 750 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x05_Pitch1.27mm" H 8660 1080 50  0001 C CNN
+F 2 "footprint:SensorPads" H 8660 1080 50  0001 C CNN
 F 3 "" H 8660 1080 50  0001 C CNN
 	1    8660 1080
 	-1   0    0    1   
@@ -284,7 +284,7 @@ U 1 1 5B5757D4
 P 8660 1910
 F 0 "J10" H 8505 2230 50  0000 C CNN
 F 1 "Sensor08" H 8510 1580 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x05_Pitch1.27mm" H 8660 1910 50  0001 C CNN
+F 2 "footprint:SensorPads" H 8660 1910 50  0001 C CNN
 F 3 "" H 8660 1910 50  0001 C CNN
 	1    8660 1910
 	-1   0    0    1   
@@ -305,7 +305,7 @@ U 1 1 5B575BB9
 P 7995 1080
 F 0 "J7" H 7840 1400 50  0000 C CNN
 F 1 "Sensor05" H 7845 750 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x05_Pitch1.27mm" H 7995 1080 50  0001 C CNN
+F 2 "footprint:SensorPads" H 7995 1080 50  0001 C CNN
 F 3 "" H 7995 1080 50  0001 C CNN
 	1    7995 1080
 	-1   0    0    1   
@@ -326,7 +326,7 @@ U 1 1 5B575BC4
 P 7995 1910
 F 0 "J8" H 7840 2230 50  0000 C CNN
 F 1 "Sensor06" H 7845 1580 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x05_Pitch1.27mm" H 7995 1910 50  0001 C CNN
+F 2 "footprint:SensorPads" H 7995 1910 50  0001 C CNN
 F 3 "" H 7995 1910 50  0001 C CNN
 	1    7995 1910
 	-1   0    0    1   
@@ -347,7 +347,7 @@ U 1 1 5B57623C
 P 7320 1080
 F 0 "J5" H 7165 1400 50  0000 C CNN
 F 1 "Sensor03" H 7170 750 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x05_Pitch1.27mm" H 7320 1080 50  0001 C CNN
+F 2 "footprint:SensorPads" H 7320 1080 50  0001 C CNN
 F 3 "" H 7320 1080 50  0001 C CNN
 	1    7320 1080
 	-1   0    0    1   
@@ -368,7 +368,7 @@ U 1 1 5B576247
 P 7320 1910
 F 0 "J6" H 7165 2230 50  0000 C CNN
 F 1 "Sensor04" H 7170 1580 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x05_Pitch1.27mm" H 7320 1910 50  0001 C CNN
+F 2 "footprint:SensorPads" H 7320 1910 50  0001 C CNN
 F 3 "" H 7320 1910 50  0001 C CNN
 	1    7320 1910
 	-1   0    0    1   
@@ -389,7 +389,7 @@ U 1 1 5B576252
 P 6655 1080
 F 0 "J3" H 6500 1400 50  0000 C CNN
 F 1 "Sensor01" H 6505 750 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x05_Pitch1.27mm" H 6655 1080 50  0001 C CNN
+F 2 "footprint:SensorPads" H 6655 1080 50  0001 C CNN
 F 3 "" H 6655 1080 50  0001 C CNN
 	1    6655 1080
 	-1   0    0    1   
@@ -410,7 +410,7 @@ U 1 1 5B57625D
 P 6655 1910
 F 0 "J4" H 6500 2230 50  0000 C CNN
 F 1 "Sensor02" H 6505 1580 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x05_Pitch1.27mm" H 6655 1910 50  0001 C CNN
+F 2 "footprint:SensorPads" H 6655 1910 50  0001 C CNN
 F 3 "" H 6655 1910 50  0001 C CNN
 	1    6655 1910
 	-1   0    0    1   
@@ -431,7 +431,7 @@ U 1 1 5B57667F
 P 9340 1080
 F 0 "J11" H 9185 1400 50  0000 C CNN
 F 1 "Sensor09" H 9190 750 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x05_Pitch1.27mm" H 9340 1080 50  0001 C CNN
+F 2 "footprint:SensorPads" H 9340 1080 50  0001 C CNN
 F 3 "" H 9340 1080 50  0001 C CNN
 	1    9340 1080
 	-1   0    0    1   
@@ -452,7 +452,7 @@ U 1 1 5B57668A
 P 9340 1910
 F 0 "J12" H 9185 2230 50  0000 C CNN
 F 1 "Sensor10" H 9190 1580 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x05_Pitch1.27mm" H 9340 1910 50  0001 C CNN
+F 2 "footprint:SensorPads" H 9340 1910 50  0001 C CNN
 F 3 "" H 9340 1910 50  0001 C CNN
 	1    9340 1910
 	-1   0    0    1   
@@ -473,7 +473,7 @@ U 1 1 5B576BF4
 P 10000 1080
 F 0 "J13" H 9845 1400 50  0000 C CNN
 F 1 "Sensor11" H 9850 750 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x05_Pitch1.27mm" H 10000 1080 50  0001 C CNN
+F 2 "footprint:SensorPads" H 10000 1080 50  0001 C CNN
 F 3 "" H 10000 1080 50  0001 C CNN
 	1    10000 1080
 	-1   0    0    1   
@@ -494,7 +494,7 @@ U 1 1 5B576BFF
 P 10000 1910
 F 0 "J14" H 9845 2230 50  0000 C CNN
 F 1 "Sensor12" H 9850 1580 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x05_Pitch1.27mm" H 10000 1910 50  0001 C CNN
+F 2 "footprint:SensorPads" H 10000 1910 50  0001 C CNN
 F 3 "" H 10000 1910 50  0001 C CNN
 	1    10000 1910
 	-1   0    0    1   
@@ -549,7 +549,7 @@ U 1 1 5B5791E2
 P 10665 1080
 F 0 "J15" H 10510 1400 50  0000 C CNN
 F 1 "Sensor13" H 10515 750 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x05_Pitch1.27mm" H 10665 1080 50  0001 C CNN
+F 2 "footprint:SensorPads" H 10665 1080 50  0001 C CNN
 F 3 "" H 10665 1080 50  0001 C CNN
 	1    10665 1080
 	-1   0    0    1   
@@ -570,7 +570,7 @@ U 1 1 5B5791ED
 P 10665 1910
 F 0 "J16" H 10510 2230 50  0000 C CNN
 F 1 "Sensor14" H 10515 1580 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x05_Pitch1.27mm" H 10665 1910 50  0001 C CNN
+F 2 "footprint:SensorPads" H 10665 1910 50  0001 C CNN
 F 3 "" H 10665 1910 50  0001 C CNN
 	1    10665 1910
 	-1   0    0    1   

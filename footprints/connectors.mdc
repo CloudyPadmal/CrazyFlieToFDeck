@@ -1,0 +1,14 @@
+PCBNEW-LibDoc----V1  Mon 09 May 2011 10:42:19 PM CEST
+#
+$MODULE ZX62R-B-5P
+Li ZX62R-B-5P
+Cd SMD micro USB reverse
+Kw micro USB
+$EndMODULE
+#
+$MODULE 72309-8034BLF
+Li 72309-8034BLF
+Kw dual usb Type-A DUAL_USB_A
+$EndMODULE
+#
+$EndLIBDOC

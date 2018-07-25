@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name board_outlines)(type Legacy)(uri "$(KIPRJMOD)/footprints/board_outlines.mod")(options "")(descr ""))
+  (lib (name connectors)(type Legacy)(uri "$(KIPRJMOD)/footprints/connectors.mod")(options "")(descr ""))
+  (lib (name footprint)(type KiCad)(uri "$(KIPRJMOD)/footprint.pretty")(options "")(descr ""))
+)
