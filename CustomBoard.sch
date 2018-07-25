@@ -40,12 +40,12 @@ encoding utf-8
 Sheet 1 1
 Title "CrazyFlie2.0"
 Date "2018-07-24"
-Rev ""
-Comp ""
+Rev "1.2"
+Comp "Group 14 FYP"
 Comment1 "Expansion Deck"
-Comment2 "VL53L0X Sensors"
-Comment3 ""
-Comment4 ""
+Comment2 "VL53L1X Sensors"
+Comment3 "15 Sensor SLAM"
+Comment4 "Obstacle Avoidance"
 $EndDescr
 $Comp
 L PCA9555 U2
@@ -94,7 +94,7 @@ F 3 "" H 1730 7110 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 Text GLabel 1110 6810 2    39   Input ~ 0
-WKUP/OW
+OW
 Text GLabel 1930 6610 2    39   Input ~ 0
 GND
 Text GLabel 1930 7110 2    39   Input ~ 0
@@ -106,18 +106,18 @@ VCC
 Wire Notes Line
 	545  6215 545  7720
 Wire Notes Line
-	545  6215 4180 6215
+	545  6215 6700 6215
 Wire Notes Line
 	2420 6215 2420 7720
 Wire Notes Line
-	545  7720 4180 7720
+	545  7720 6700 7720
 Text Notes 575  6330 0    59   Italic 12
 IO EXPANDER
 $Comp
-L PWR_FLAG #FLG01
+L PWR_FLAG #FLG1
 U 1 1 5B5754C4
 P 725 720
-F 0 "#FLG01" H 725 795 50  0001 C CNN
+F 0 "#FLG1" H 725 795 50  0001 C CNN
 F 1 "PWR_FLAG" H 725 870 50  0000 C CNN
 F 2 "" H 725 720 50  0001 C CNN
 F 3 "" H 725 720 50  0001 C CNN
@@ -125,10 +125,10 @@ F 3 "" H 725 720 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L PWR_FLAG #FLG02
+L PWR_FLAG #FLG2
 U 1 1 5B575536
 P 1245 720
-F 0 "#FLG02" H 1245 795 50  0001 C CNN
+F 0 "#FLG2" H 1245 795 50  0001 C CNN
 F 1 "PWR_FLAG" H 1245 870 50  0000 C CNN
 F 2 "" H 1245 720 50  0001 C CNN
 F 3 "" H 1245 720 50  0001 C CNN
@@ -140,7 +140,7 @@ GND
 Text GLabel 1245 810  3    39   Input ~ 0
 VCC
 Wire Wire Line
-	1245 810  1245 720 
+	1245 720  1245 810 
 Wire Wire Line
 	725  720  725  805 
 Text GLabel 5735 5130 3    39   Input ~ 0
@@ -151,29 +151,26 @@ Wire Wire Line
 	5435 3310 5435 3550
 Wire Wire Line
 	5585 3550 5585 3430
-Wire Wire Line
-	5585 3430 5435 3430
-Connection ~ 5435 3430
 $Comp
 L DS28E05 U1
 U 1 1 5B575B36
-P 3605 7000
-F 0 "U1" H 3770 7000 59  0000 C CNN
-F 1 "DS28E05" V 3615 7005 59  0000 C CNN
-F 2 "TO_SOT_Packages_SMD:SOT-23" H 3555 7150 79  0001 C CNN
-F 3 "" H 3555 7150 79  0001 C CNN
-	1    3605 7000
+P 3525 7005
+F 0 "U1" H 3690 7005 59  0000 C CNN
+F 1 "DS28E05" V 3535 7010 59  0000 C CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 3475 7155 79  0001 C CNN
+F 3 "" H 3475 7155 79  0001 C CNN
+	1    3525 7005
 	1    0    0    -1  
 $EndComp
-NoConn ~ 3140 7000
-Text GLabel 3005 7140 0    39   Input ~ 0
+NoConn ~ 3060 7005
+Text GLabel 2925 7145 0    39   Input ~ 0
 GND
-Text GLabel 3005 6850 0    39   Input ~ 0
-WKUP/OW
+Text GLabel 2925 6855 0    39   Input ~ 0
+OW
 Wire Wire Line
-	3005 6850 3140 6850
+	2925 6855 3060 6855
 Wire Wire Line
-	3140 7140 3005 7140
+	3060 7145 2925 7145
 Text GLabel 6185 3310 1    39   Input ~ 0
 SCL
 Wire Wire Line
@@ -205,29 +202,12 @@ Text GLabel 5885 3310 1    39   Input ~ 0
 VCC
 Wire Wire Line
 	5885 3310 5885 3550
-Text GLabel 7340 3965 2    39   Input ~ 0
-VCC
-$Comp
-L R R3
-U 1 1 5B573F58
-P 6995 3965
-F 0 "R3" V 7075 3965 50  0000 C CNN
-F 1 "10k" V 6990 3965 39  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 6925 3965 50  0001 C CNN
-F 3 "" H 6995 3965 50  0001 C CNN
-	1    6995 3965
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	6845 3965 6600 3965
-Wire Wire Line
-	7145 3965 7340 3965
 $Comp
 L C_Small C1
 U 1 1 5B574396
 P 995 775
-F 0 "C1" V 950 815 50  0000 L CNN
-F 1 "PowerC" V 1085 650 50  0000 L CNN
+F 0 "C1" V 950 815 39  0000 L CNN
+F 1 "100n" V 1100 705 39  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 995 775 50  0001 C CNN
 F 3 "" H 995 775 50  0001 C CNN
 	1    995  775 
@@ -239,23 +219,6 @@ Connection ~ 725  775
 Wire Wire Line
 	1095 775  1245 775 
 Connection ~ 1245 775 
-$Comp
-L R R2
-U 1 1 5B57494F
-P 5735 2965
-F 0 "R2" V 5815 2965 50  0000 C CNN
-F 1 "10k" V 5730 2965 39  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 5665 2965 50  0001 C CNN
-F 3 "" H 5735 2965 50  0001 C CNN
-	1    5735 2965
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	5735 3115 5735 3550
-Text GLabel 5735 2680 1    39   Input ~ 0
-VCC
-Wire Wire Line
-	5735 2680 5735 2815
 NoConn ~ 11060 4010
 $Comp
 L Conn_01x05 J9
@@ -538,7 +501,7 @@ S13
 Text GLabel 6600 4265 2    39   Input ~ 0
 S14
 Text GLabel 6600 4115 2    39   Input ~ 0
-TEST
+S15
 Wire Notes Line
 	4180 7720 4180 6215
 Text Notes 2450 6325 0    59   Italic 12
@@ -610,19 +573,123 @@ NoConn ~ 1110 7410
 NoConn ~ 1110 7310
 NoConn ~ 1110 7210
 NoConn ~ 1110 7110
-Text GLabel 1705 810  3    39   Input ~ 0
-TEST
 $Comp
-L TEST_1P J17
-U 1 1 5B57BB06
-P 1705 765
-F 0 "J17" H 1770 835 50  0000 C CNN
-F 1 "TEST_1P" H 1705 965 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 1905 765 50  0001 C CNN
-F 3 "" H 1905 765 50  0001 C CNN
-	1    1705 765 
+L VL53L1X U3
+U 1 1 5B58A20A
+P 5745 6965
+F 0 "U3" H 5745 6555 60  0000 C CNN
+F 1 "VL53L1X" H 5745 7395 60  0000 C CNN
+F 2 "" H 5745 6965 60  0001 C CNN
+F 3 "" H 5745 6965 60  0001 C CNN
+	1    5745 6965
+	1    0    0    -1  
+$EndComp
+Text GLabel 4755 7125 0    39   Input ~ 0
+S15
+$Comp
+L R R4
+U 1 1 5B58A900
+P 4875 7425
+F 0 "R4" V 4955 7425 50  0000 C CNN
+F 1 "10k" V 4875 7425 39  0000 C CNN
+F 2 "" V 4805 7425 50  0001 C CNN
+F 3 "" H 4875 7425 50  0001 C CNN
+	1    4875 7425
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1705 810  1705 765 
+	4755 7125 5225 7125
+NoConn ~ 6265 7225
+Wire Wire Line
+	4755 6420 6490 6420
+Wire Wire Line
+	6490 6420 6490 6915
+Wire Wire Line
+	6490 6915 6265 6915
+$Comp
+L C_Small C2
+U 1 1 5B58B483
+P 4830 6610
+F 0 "C2" H 4735 6680 39  0000 L CNN
+F 1 "100n" H 4665 6550 39  0000 L CNN
+F 2 "" H 4830 6610 50  0001 C CNN
+F 3 "" H 4830 6610 50  0001 C CNN
+	1    4830 6610
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4830 6915 5225 6915
+Wire Wire Line
+	4525 7020 5225 7020
+Wire Wire Line
+	5225 7225 5100 7225
+Wire Wire Line
+	5100 7225 5100 7655
+Wire Wire Line
+	4525 7655 6570 7655
+Wire Wire Line
+	4875 7275 4875 7125
+Connection ~ 4875 7125
+Wire Wire Line
+	4875 7655 4875 7575
+Wire Wire Line
+	4525 7655 4525 7020
+Connection ~ 4875 7655
+Text GLabel 6265 6810 2    39   Input ~ 0
+SCL
+Text GLabel 6265 7020 2    39   Input ~ 0
+SDA
+NoConn ~ 6265 7120
+Wire Wire Line
+	6265 6700 6570 6700
+Wire Wire Line
+	6570 6700 6570 7655
+Connection ~ 5100 7655
+Text GLabel 4755 6420 0    39   Input ~ 0
+VCC
+Text GLabel 4760 6810 0    39   Input ~ 0
+GND
+Wire Wire Line
+	5225 6700 5190 6700
+Wire Wire Line
+	5190 6700 5190 6420
+Connection ~ 5190 6420
+$Comp
+L C_Small C3
+U 1 1 5B58DF49
+P 5050 6610
+F 0 "C3" H 4960 6680 39  0000 L CNN
+F 1 "4.7u" H 4915 6550 39  0000 L CNN
+F 2 "" H 5050 6610 50  0001 C CNN
+F 3 "" H 5050 6610 50  0001 C CNN
+	1    5050 6610
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4830 6510 4830 6420
+Connection ~ 4830 6420
+Wire Wire Line
+	5050 6420 5050 6510
+Connection ~ 5050 6420
+Wire Wire Line
+	4830 6710 4830 7020
+Connection ~ 4830 7020
+Connection ~ 4830 6915
+Wire Wire Line
+	5050 6710 5050 6915
+Connection ~ 5050 6915
+Wire Wire Line
+	4760 6810 5225 6810
+Connection ~ 4830 6810
+Connection ~ 5050 6810
+Wire Notes Line
+	6700 7720 6700 6215
+Text Notes 4240 6335 0    59   Italic 12
+Top ToF
+NoConn ~ 5735 3550
+Text GLabel 6600 3965 2    39   Input ~ 0
+GND
+Wire Wire Line
+	5585 3430 5435 3430
+Connection ~ 5435 3430
 $EndSCHEMATC

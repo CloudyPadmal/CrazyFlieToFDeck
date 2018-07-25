@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/knight/Documents/KiCAD/CrazyFlieCustomBoard/CustomBoard.sch)
-    (date "Wed 25 Jul 2018 08:14:46 PM +0530")
+    (date "Wed 25 Jul 2018 09:17:08 PM +0530")
     (tool "Eeschema 4.0.7-e2-6376~58~ubuntu16.04.1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
