@@ -40,12 +40,12 @@ encoding utf-8
 Sheet 1 1
 Title "CrazyFlie2.0"
 Date "2018-07-24"
-Rev ""
-Comp ""
+Rev "1.2"
+Comp "Group 14 FYP"
 Comment1 "Expansion Deck"
-Comment2 "VL53L0X Sensors"
-Comment3 ""
-Comment4 ""
+Comment2 "VL53L1X Sensors"
+Comment3 "15 Sensor SLAM"
+Comment4 "Obstacle Avoidance"
 $EndDescr
 $Comp
 L PCA9555 U2
