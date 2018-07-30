@@ -692,4 +692,270 @@ GND
 Wire Wire Line
 	5585 3430 5435 3430
 Connection ~ 5435 3430
+Text GLabel 770  1200 0    39   Input ~ 0
+S01
+Text GLabel 1130 1200 2    39   Input ~ 0
+GND
+$Comp
+L R R?
+U 1 1 5B5F423C
+P 950 1200
+F 0 "R?" V 865 1215 50  0000 C CNN
+F 1 "10k" V 950 1200 39  0000 C CNN
+F 2 "" V 880 1200 50  0001 C CNN
+F 3 "" H 950 1200 50  0001 C CNN
+	1    950  1200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	800  1200 770  1200
+Wire Wire Line
+	1100 1200 1130 1200
+Text GLabel 770  1390 0    39   Input ~ 0
+S02
+Text GLabel 1130 1390 2    39   Input ~ 0
+GND
+$Comp
+L R R?
+U 1 1 5B5F4A0C
+P 950 1390
+F 0 "R?" V 865 1405 50  0000 C CNN
+F 1 "10k" V 950 1390 39  0000 C CNN
+F 2 "" V 880 1390 50  0001 C CNN
+F 3 "" H 950 1390 50  0001 C CNN
+	1    950  1390
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	800  1390 770  1390
+Wire Wire Line
+	1100 1390 1130 1390
+Text GLabel 770  1590 0    39   Input ~ 0
+S03
+Text GLabel 1130 1590 2    39   Input ~ 0
+GND
+$Comp
+L R R?
+U 1 1 5B5F4B5F
+P 950 1590
+F 0 "R?" V 865 1605 50  0000 C CNN
+F 1 "10k" V 950 1590 39  0000 C CNN
+F 2 "" V 880 1590 50  0001 C CNN
+F 3 "" H 950 1590 50  0001 C CNN
+	1    950  1590
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	800  1590 770  1590
+Wire Wire Line
+	1100 1590 1130 1590
+Text GLabel 770  1780 0    39   Input ~ 0
+S04
+Text GLabel 1130 1780 2    39   Input ~ 0
+GND
+$Comp
+L R R?
+U 1 1 5B5F4B69
+P 950 1780
+F 0 "R?" V 865 1795 50  0000 C CNN
+F 1 "10k" V 950 1780 39  0000 C CNN
+F 2 "" V 880 1780 50  0001 C CNN
+F 3 "" H 950 1780 50  0001 C CNN
+	1    950  1780
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	800  1780 770  1780
+Wire Wire Line
+	1100 1780 1130 1780
+Text GLabel 770  1975 0    39   Input ~ 0
+S05
+Text GLabel 1130 1975 2    39   Input ~ 0
+GND
+$Comp
+L R R?
+U 1 1 5B5F53E2
+P 950 1975
+F 0 "R?" V 865 1990 50  0000 C CNN
+F 1 "10k" V 950 1975 39  0000 C CNN
+F 2 "" V 880 1975 50  0001 C CNN
+F 3 "" H 950 1975 50  0001 C CNN
+	1    950  1975
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	800  1975 770  1975
+Wire Wire Line
+	1100 1975 1130 1975
+Text GLabel 770  2165 0    39   Input ~ 0
+S06
+Text GLabel 1130 2165 2    39   Input ~ 0
+GND
+$Comp
+L R R?
+U 1 1 5B5F53EC
+P 950 2165
+F 0 "R?" V 865 2180 50  0000 C CNN
+F 1 "10k" V 950 2165 39  0000 C CNN
+F 2 "" V 880 2165 50  0001 C CNN
+F 3 "" H 950 2165 50  0001 C CNN
+	1    950  2165
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	800  2165 770  2165
+Wire Wire Line
+	1100 2165 1130 2165
+Text GLabel 770  2365 0    39   Input ~ 0
+S07
+Text GLabel 1130 2365 2    39   Input ~ 0
+GND
+$Comp
+L R R?
+U 1 1 5B5F53F6
+P 950 2365
+F 0 "R?" V 865 2380 50  0000 C CNN
+F 1 "10k" V 950 2365 39  0000 C CNN
+F 2 "" V 880 2365 50  0001 C CNN
+F 3 "" H 950 2365 50  0001 C CNN
+	1    950  2365
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	800  2365 770  2365
+Wire Wire Line
+	1100 2365 1130 2365
+Text GLabel 770  2555 0    39   Input ~ 0
+S08
+Text GLabel 1130 2555 2    39   Input ~ 0
+GND
+$Comp
+L R R?
+U 1 1 5B5F5400
+P 950 2555
+F 0 "R?" V 865 2570 50  0000 C CNN
+F 1 "10k" V 950 2555 39  0000 C CNN
+F 2 "" V 880 2555 50  0001 C CNN
+F 3 "" H 950 2555 50  0001 C CNN
+	1    950  2555
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	800  2555 770  2555
+Wire Wire Line
+	1100 2555 1130 2555
+Text GLabel 770  2745 0    39   Input ~ 0
+S09
+Text GLabel 1130 2745 2    39   Input ~ 0
+GND
+$Comp
+L R R?
+U 1 1 5B5F7426
+P 950 2745
+F 0 "R?" V 865 2760 50  0000 C CNN
+F 1 "10k" V 950 2745 39  0000 C CNN
+F 2 "" V 880 2745 50  0001 C CNN
+F 3 "" H 950 2745 50  0001 C CNN
+	1    950  2745
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	800  2745 770  2745
+Wire Wire Line
+	1100 2745 1130 2745
+Text GLabel 770  2935 0    39   Input ~ 0
+S10
+Text GLabel 1130 2935 2    39   Input ~ 0
+GND
+$Comp
+L R R?
+U 1 1 5B5F7430
+P 950 2935
+F 0 "R?" V 865 2950 50  0000 C CNN
+F 1 "10k" V 950 2935 39  0000 C CNN
+F 2 "" V 880 2935 50  0001 C CNN
+F 3 "" H 950 2935 50  0001 C CNN
+	1    950  2935
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	800  2935 770  2935
+Wire Wire Line
+	1100 2935 1130 2935
+Text GLabel 770  3135 0    39   Input ~ 0
+S11
+Text GLabel 1130 3135 2    39   Input ~ 0
+GND
+$Comp
+L R R?
+U 1 1 5B5F743A
+P 950 3135
+F 0 "R?" V 865 3150 50  0000 C CNN
+F 1 "10k" V 950 3135 39  0000 C CNN
+F 2 "" V 880 3135 50  0001 C CNN
+F 3 "" H 950 3135 50  0001 C CNN
+	1    950  3135
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	800  3135 770  3135
+Wire Wire Line
+	1100 3135 1130 3135
+Text GLabel 770  3325 0    39   Input ~ 0
+S12
+Text GLabel 1130 3325 2    39   Input ~ 0
+GND
+$Comp
+L R R?
+U 1 1 5B5F7444
+P 950 3325
+F 0 "R?" V 865 3340 50  0000 C CNN
+F 1 "10k" V 950 3325 39  0000 C CNN
+F 2 "" V 880 3325 50  0001 C CNN
+F 3 "" H 950 3325 50  0001 C CNN
+	1    950  3325
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	800  3325 770  3325
+Wire Wire Line
+	1100 3325 1130 3325
+Text GLabel 770  3520 0    39   Input ~ 0
+S13
+Text GLabel 1130 3520 2    39   Input ~ 0
+GND
+$Comp
+L R R?
+U 1 1 5B5F744E
+P 950 3520
+F 0 "R?" V 865 3535 50  0000 C CNN
+F 1 "10k" V 950 3520 39  0000 C CNN
+F 2 "" V 880 3520 50  0001 C CNN
+F 3 "" H 950 3520 50  0001 C CNN
+	1    950  3520
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	800  3520 770  3520
+Wire Wire Line
+	1100 3520 1130 3520
+Text GLabel 770  3710 0    39   Input ~ 0
+S14
+Text GLabel 1130 3710 2    39   Input ~ 0
+GND
+$Comp
+L R R?
+U 1 1 5B5F7458
+P 950 3710
+F 0 "R?" V 865 3725 50  0000 C CNN
+F 1 "10k" V 950 3710 39  0000 C CNN
+F 2 "" V 880 3710 50  0001 C CNN
+F 3 "" H 950 3710 50  0001 C CNN
+	1    950  3710
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	800  3710 770  3710
+Wire Wire Line
+	1100 3710 1130 3710
 $EndSCHEMATC
