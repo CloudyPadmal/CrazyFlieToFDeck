@@ -868,44 +868,6 @@ Wire Wire Line
 	800  3325 770  3325
 Wire Wire Line
 	1100 3325 1130 3325
-Text GLabel 770  3520 0    39   Input ~ 0
-S13
-Text GLabel 1130 3520 2    39   Input ~ 0
-GND
-$Comp
-L R R15
-U 1 1 5B5F744E
-P 950 3520
-F 0 "R15" V 865 3535 50  0000 C CNN
-F 1 "10k" V 950 3520 39  0000 C CNN
-F 2 "Resistors_SMD:R_0402" V 880 3520 50  0001 C CNN
-F 3 "" H 950 3520 50  0001 C CNN
-	1    950  3520
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	800  3520 770  3520
-Wire Wire Line
-	1100 3520 1130 3520
-Text GLabel 770  3710 0    39   Input ~ 0
-S14
-Text GLabel 1130 3710 2    39   Input ~ 0
-GND
-$Comp
-L R R16
-U 1 1 5B5F7458
-P 950 3710
-F 0 "R16" V 865 3725 50  0000 C CNN
-F 1 "10k" V 950 3710 39  0000 C CNN
-F 2 "Resistors_SMD:R_0402" V 880 3710 50  0001 C CNN
-F 3 "" H 950 3710 50  0001 C CNN
-	1    950  3710
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	800  3710 770  3710
-Wire Wire Line
-	1100 3710 1130 3710
 NoConn ~ 6600 4410
 NoConn ~ 6600 4265
 Wire Notes Line
