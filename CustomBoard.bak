@@ -77,7 +77,7 @@ U 1 1 5B57464F
 P 910 7110
 F 0 "J1" H 910 7610 50  0000 C CNN
 F 1 "RIGHT" H 910 6510 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x10_Pitch2.00mm_SMD_Pin1Right" H 910 7110 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x10_Pitch2.00mm" H 910 7110 50  0001 C CNN
 F 3 "" H 910 7110 50  0001 C CNN
 	1    910  7110
 	-1   0    0    1   
@@ -88,7 +88,7 @@ U 1 1 5B574892
 P 1730 7110
 F 0 "J2" H 1730 7610 50  0000 C CNN
 F 1 "LEFT" H 1730 6510 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x10_Pitch2.00mm_SMD_Pin1Left" H 1730 7110 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x10_Pitch2.00mm" H 1730 7110 50  0001 C CNN
 F 3 "" H 1730 7110 50  0001 C CNN
 	1    1730 7110
 	-1   0    0    1   

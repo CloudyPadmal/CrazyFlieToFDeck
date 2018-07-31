@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/knight/Documents/KiCAD/CrazyFlieCustomBoard/CustomBoard.sch)
-    (date "Tue 31 Jul 2018 09:49:56 AM +0530")
+    (date "Tue 31 Jul 2018 10:42:45 AM +0530")
     (tool "Eeschema 4.0.7-e2-6376~58~ubuntu16.04.1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -29,13 +29,13 @@
       (tstamp 5B574264))
     (comp (ref J1)
       (value RIGHT)
-      (footprint Pin_Headers:Pin_Header_Straight_1x10_Pitch2.00mm_SMD_Pin1Right)
+      (footprint footprint:BF090-10-X-B2)
       (libsource (lib conn) (part Conn_01x10))
       (sheetpath (names /) (tstamps /))
       (tstamp 5B57464F))
     (comp (ref J2)
       (value LEFT)
-      (footprint Pin_Headers:Pin_Header_Straight_1x10_Pitch2.00mm_SMD_Pin1Left)
+      (footprint footprint:BF090-10-X-B2)
       (libsource (lib conn) (part Conn_01x10))
       (sheetpath (names /) (tstamps /))
       (tstamp 5B574892))
@@ -357,10 +357,10 @@
   (libraries
     (library (logical device)
       (uri /usr/share/kicad/library/device.lib))
-    (library (logical conn)
-      (uri /usr/share/kicad/library/conn.lib))
     (library (logical parts)
-      (uri /home/knight/Documents/KiCAD/CrazyFlieCustomBoard/parts.lib)))
+      (uri /home/knight/Documents/KiCAD/CrazyFlieCustomBoard/parts.lib))
+    (library (logical conn)
+      (uri /usr/share/kicad/library/conn.lib)))
   (nets
     (net (code 1) (name "Net-(U3-Pad8)")
       (node (ref U3) (pin 8)))
