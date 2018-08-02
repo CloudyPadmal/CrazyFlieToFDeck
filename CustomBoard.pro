@@ -1,4 +1,4 @@
-update=Tue 31 Jul 2018 09:35:38 AM +0530
+update=Thu 02 Aug 2018 07:52:43 AM +0530
 version=1
 last_client=kicad
 [cvpcb]
@@ -46,7 +46,7 @@ LibName33=parts
 [pcbnew]
 version=1
 PageLayoutDescrFile=
-LastNetListRead=CustomBoardN.net
+LastNetListRead=CustomBoard.net
 PadDrill=0
 PadDrillOvalY=0
 PadSizeH=0.5
