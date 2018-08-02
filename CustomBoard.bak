@@ -876,4 +876,24 @@ Wire Notes Line
 	7155 2320 11180 2320
 Wire Notes Line
 	7155 510  11180 510 
+$Comp
+L Conn_01x05 J?
+U 1 1 5B6259FC
+P 10780 5760
+F 0 "J?" H 10625 6080 50  0000 C CNN
+F 1 "Camera" H 10630 5430 50  0000 C CNN
+F 2 "footprint:SensorPads" H 10780 5760 50  0001 C CNN
+F 3 "" H 10780 5760 50  0001 C CNN
+	1    10780 5760
+	1    0    0    -1  
+$EndComp
+Text GLabel 10580 5560 0    39   Input ~ 0
+GND
+Text GLabel 10580 5760 0    39   Input ~ 0
+SCL
+Text GLabel 10580 5860 0    39   Input ~ 0
+SDA
+Text GLabel 10580 5960 0    39   Input ~ 0
+VCC
+NoConn ~ 10580 5660
 $EndSCHEMATC
