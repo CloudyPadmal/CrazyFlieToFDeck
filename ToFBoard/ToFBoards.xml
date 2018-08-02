@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/knight/Documents/KiCAD/CrazyFlieCustomBoard/ToFBoard/ToFBoards.sch</source>
+    <date>Thu 02 Aug 2018 07:34:20 PM +0530</date>
+    <tool>Eeschema 4.0.7-e2-6376~58~ubuntu16.04.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>ToFBoards.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="U1">
+      <value>VL53L1X</value>
+      <footprint>footprint:VL53L1X</footprint>
+      <libsource lib="parts" part="VL53L1X"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B5FF9B9</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>4.7u</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B60667F</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B606704</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>Top</value>
+      <footprint>footprint:ToFTop</footprint>
+      <libsource lib="conn" part="Conn_01x02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B606E26</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>Bot</value>
+      <footprint>footprint:ToFBottom</footprint>
+      <libsource lib="conn" part="Conn_01x03"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B606EF1</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="device" part="C_Small">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="Conn_01x02">
+      <description>Generic connector, single row, 01x02</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_??x*mm*</fp>
+        <fp>Connector*:*1x??x*mm*</fp>
+        <fp>Pin?Header?Straight?1X*</fp>
+        <fp>Pin?Header?Angled?1X*</fp>
+        <fp>Socket?Strip?Straight?1X*</fp>
+        <fp>Socket?Strip?Angled?1X*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="Conn_01x03">
+      <description>Generic connector, single row, 01x03</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_??x*mm*</fp>
+        <fp>Connector*:*1x??x*mm*</fp>
+        <fp>Pin?Header?Straight?1X*</fp>
+        <fp>Pin?Header?Angled?1X*</fp>
+        <fp>Socket?Strip?Straight?1X*</fp>
+        <fp>Socket?Strip?Angled?1X*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x03</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="parts" part="VL53L1X">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">VL53L1X</field>
+      </fields>
+      <pins>
+        <pin num="1" name="AVDDS" type="input"/>
+        <pin num="2" name="AVSSS" type="input"/>
+        <pin num="3" name="GND1" type="input"/>
+        <pin num="4" name="GND2" type="input"/>
+        <pin num="5" name="XSHUT" type="input"/>
+        <pin num="6" name="GND3" type="input"/>
+        <pin num="7" name="GPIO" type="input"/>
+        <pin num="8" name="DNC" type="input"/>
+        <pin num="9" name="SDA" type="input"/>
+        <pin num="10" name="SCL" type="input"/>
+        <pin num="11" name="AVDD" type="input"/>
+        <pin num="12" name="GND4" type="input"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="parts">
+      <uri>/home/knight/Documents/KiCAD/CrazyFlieCustomBoard/parts.lib</uri>
+    </library>
+    <library logical="conn">
+      <uri>/usr/share/kicad/library/conn.lib</uri>
+    </library>
+    <library logical="device">
+      <uri>/usr/share/kicad/library/device.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="SCL1">
+      <node ref="U1" pin="10"/>
+      <node ref="J1" pin="1"/>
+    </net>
+    <net code="2" name="SIGNAL1">
+      <node ref="J1" pin="2"/>
+      <node ref="U1" pin="5"/>
+    </net>
+    <net code="3" name="VCC1">
+      <node ref="C1" pin="1"/>
+      <node ref="U1" pin="1"/>
+      <node ref="C2" pin="1"/>
+      <node ref="U1" pin="11"/>
+      <node ref="J2" pin="1"/>
+    </net>
+    <net code="4" name="SDA1">
+      <node ref="U1" pin="9"/>
+      <node ref="J2" pin="2"/>
+    </net>
+    <net code="5" name="GND1">
+      <node ref="U1" pin="12"/>
+      <node ref="C1" pin="2"/>
+      <node ref="J2" pin="3"/>
+      <node ref="C2" pin="2"/>
+      <node ref="U1" pin="2"/>
+      <node ref="U1" pin="3"/>
+      <node ref="U1" pin="4"/>
+      <node ref="U1" pin="6"/>
+    </net>
+    <net code="6" name="Net-(U1-Pad7)">
+      <node ref="U1" pin="7"/>
+    </net>
+    <net code="7" name="Net-(U1-Pad8)">
+      <node ref="U1" pin="8"/>
+    </net>
+  </nets>
+</export>

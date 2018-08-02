@@ -3,7 +3,7 @@
   (general
     (links 15)
     (no_connects 0)
-    (area 144.249999 101.224999 152.825001 107.075001)
+    (area 143.958571 101.224999 152.925002 107.100002)
     (thickness 0.8)
     (drawings 7)
     (tracks 56)
@@ -65,7 +65,7 @@
     (visible_elements FFFEFF7F)
     (pcbplotparams
       (layerselection 0x010fc_80000001)
-      (usegerberextensions false)
+      (usegerberextensions true)
       (excludeedgelayer true)
       (linewidth 0.100000)
       (plotframeref false)
@@ -83,11 +83,11 @@
       (plotinvisibletext false)
       (padsonsilk false)
       (subtractmaskfromsilk false)
-      (outputformat 4)
+      (outputformat 1)
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory pdfs/))
+      (outputdirectory singlegerber/))
   )
 
   (net 0 "")
