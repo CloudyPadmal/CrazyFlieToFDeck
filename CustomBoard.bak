@@ -37,7 +37,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 1
+Sheet 1 18
 Title "CrazyFlie2.0"
 Date "2018-07-24"
 Rev "1.2"
@@ -114,10 +114,10 @@ Wire Notes Line
 Text Notes 575  6330 0    59   Italic 12
 IO EXPANDER
 $Comp
-L PWR_FLAG #FLG01
+L PWR_FLAG #FLG1
 U 1 1 5B5754C4
 P 725 720
-F 0 "#FLG01" H 725 795 50  0001 C CNN
+F 0 "#FLG1" H 725 795 50  0001 C CNN
 F 1 "PWR_FLAG" H 725 870 50  0000 C CNN
 F 2 "" H 725 720 50  0001 C CNN
 F 3 "" H 725 720 50  0001 C CNN
@@ -125,10 +125,10 @@ F 3 "" H 725 720 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L PWR_FLAG #FLG02
+L PWR_FLAG #FLG2
 U 1 1 5B575536
 P 1245 720
-F 0 "#FLG02" H 1245 795 50  0001 C CNN
+F 0 "#FLG2" H 1245 795 50  0001 C CNN
 F 1 "PWR_FLAG" H 1245 870 50  0000 C CNN
 F 2 "" H 1245 720 50  0001 C CNN
 F 3 "" H 1245 720 50  0001 C CNN
@@ -911,4 +911,16 @@ Text Notes 9870 5400 0    59   Italic 12
 Camera Slot
 Text Notes 9905 2510 0    59   Italic 12
 ToF Pullups
+$Sheet
+S 8385 5485 1105 780 
+U 5B640D2F
+F0 "ToFSensors" 39
+F1 "ToFSensors.sch" 39
+$EndSheet
+$Sheet
+S 7130 5485 1145 780 
+U 5B640EC2
+F0 "Camera" 39
+F1 "Camera.sch" 39
+$EndSheet
 $EndSCHEMATC

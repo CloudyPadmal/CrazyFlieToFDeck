@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>/home/knight/Documents/KiCAD/CrazyFlieCustomBoard/CustomBoard.sch</source>
-    <date>Thu 02 Aug 2018 07:28:03 PM +0530</date>
+    <date>Fri 03 Aug 2018 03:05:18 PM +0530</date>
     <tool>Eeschema 4.0.7-e2-6376~58~ubuntu16.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -15,6 +15,227 @@
         <comment number="2" value="VL53L1X Sensors"/>
         <comment number="3" value="15 Sensor SLAM"/>
         <comment number="4" value="Obstacle Avoidance"/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/ToFSensors/" tstamps="/5B640D2F/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>ToFSensors.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/ToFSensors/OneTof/" tstamps="/5B640D2F/5B642E20/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>OneToF.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/ToFSensors/TwoToF/" tstamps="/5B640D2F/5B6438BD/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>OneToF.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="5" name="/ToFSensors/ThreeToF/" tstamps="/5B640D2F/5B643B9D/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>OneToF.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="6" name="/ToFSensors/FourToF/" tstamps="/5B640D2F/5B643BA0/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>OneToF.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="7" name="/ToFSensors/FiveToF/" tstamps="/5B640D2F/5B643BA5/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>OneToF.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="8" name="/ToFSensors/SixToF/" tstamps="/5B640D2F/5B645AA2/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>OneToF.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="9" name="/ToFSensors/SevenToF/" tstamps="/5B640D2F/5B645F37/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>OneToF.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="10" name="/ToFSensors/EightToF/" tstamps="/5B640D2F/5B645F3E/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>OneToF.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="11" name="/ToFSensors/NineToF/" tstamps="/5B640D2F/5B645F43/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>OneToF.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="12" name="/ToFSensors/TenToF/" tstamps="/5B640D2F/5B646046/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>OneToF.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="13" name="/ToFSensors/ElevenToF/" tstamps="/5B640D2F/5B64604B/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>OneToF.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="14" name="/ToFSensors/TwelveToF/" tstamps="/5B640D2F/5B64613F/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>OneToF.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="15" name="/ToFSensors/ThirteenToF/" tstamps="/5B640D2F/5B646233/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>OneToF.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="16" name="/ToFSensors/FourteenToF/" tstamps="/5B640D2F/5B646238/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>OneToF.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="17" name="/ToFSensors/FifteenToF/" tstamps="/5B640D2F/5B64623D/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>OneToF.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="18" name="/Camera/" tstamps="/5B640EC2/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Camera.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
       </title_block>
     </sheet>
   </design>
@@ -271,8 +492,632 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5B6259FC</tstamp>
     </comp>
+    <comp ref="U5">
+      <value>VL53L1X</value>
+      <footprint>footprint:VL53L1X</footprint>
+      <libsource lib="parts" part="VL53L1X"/>
+      <sheetpath names="/ToFSensors/OneTof/" tstamps="/5B640D2F/5B642E20/"/>
+      <tstamp>5B642FEB</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>4.7u</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/ToFSensors/OneTof/" tstamps="/5B640D2F/5B642E20/"/>
+      <tstamp>5B642FEC</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/ToFSensors/OneTof/" tstamps="/5B640D2F/5B642E20/"/>
+      <tstamp>5B642FED</tstamp>
+    </comp>
+    <comp ref="J19">
+      <value>Top</value>
+      <footprint>footprint:ToFTop</footprint>
+      <libsource lib="conn" part="Conn_01x02"/>
+      <sheetpath names="/ToFSensors/OneTof/" tstamps="/5B640D2F/5B642E20/"/>
+      <tstamp>5B642FEE</tstamp>
+    </comp>
+    <comp ref="J20">
+      <value>Bot</value>
+      <footprint>footprint:ToFBottom</footprint>
+      <libsource lib="conn" part="Conn_01x03"/>
+      <sheetpath names="/ToFSensors/OneTof/" tstamps="/5B640D2F/5B642E20/"/>
+      <tstamp>5B642FEF</tstamp>
+    </comp>
+    <comp ref="U6">
+      <value>VL53L1X</value>
+      <footprint>footprint:VL53L1X</footprint>
+      <libsource lib="parts" part="VL53L1X"/>
+      <sheetpath names="/ToFSensors/TwoToF/" tstamps="/5B640D2F/5B6438BD/"/>
+      <tstamp>5B642FEB</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>4.7u</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/ToFSensors/TwoToF/" tstamps="/5B640D2F/5B6438BD/"/>
+      <tstamp>5B642FEC</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/ToFSensors/TwoToF/" tstamps="/5B640D2F/5B6438BD/"/>
+      <tstamp>5B642FED</tstamp>
+    </comp>
+    <comp ref="J21">
+      <value>Top</value>
+      <footprint>footprint:ToFTop</footprint>
+      <libsource lib="conn" part="Conn_01x02"/>
+      <sheetpath names="/ToFSensors/TwoToF/" tstamps="/5B640D2F/5B6438BD/"/>
+      <tstamp>5B642FEE</tstamp>
+    </comp>
+    <comp ref="J22">
+      <value>Bot</value>
+      <footprint>footprint:ToFBottom</footprint>
+      <libsource lib="conn" part="Conn_01x03"/>
+      <sheetpath names="/ToFSensors/TwoToF/" tstamps="/5B640D2F/5B6438BD/"/>
+      <tstamp>5B642FEF</tstamp>
+    </comp>
+    <comp ref="U7">
+      <value>VL53L1X</value>
+      <footprint>footprint:VL53L1X</footprint>
+      <libsource lib="parts" part="VL53L1X"/>
+      <sheetpath names="/ToFSensors/ThreeToF/" tstamps="/5B640D2F/5B643B9D/"/>
+      <tstamp>5B642FEB</tstamp>
+    </comp>
+    <comp ref="C12">
+      <value>4.7u</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/ToFSensors/ThreeToF/" tstamps="/5B640D2F/5B643B9D/"/>
+      <tstamp>5B642FEC</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/ToFSensors/ThreeToF/" tstamps="/5B640D2F/5B643B9D/"/>
+      <tstamp>5B642FED</tstamp>
+    </comp>
+    <comp ref="J23">
+      <value>Top</value>
+      <footprint>footprint:ToFTop</footprint>
+      <libsource lib="conn" part="Conn_01x02"/>
+      <sheetpath names="/ToFSensors/ThreeToF/" tstamps="/5B640D2F/5B643B9D/"/>
+      <tstamp>5B642FEE</tstamp>
+    </comp>
+    <comp ref="J24">
+      <value>Bot</value>
+      <footprint>footprint:ToFBottom</footprint>
+      <libsource lib="conn" part="Conn_01x03"/>
+      <sheetpath names="/ToFSensors/ThreeToF/" tstamps="/5B640D2F/5B643B9D/"/>
+      <tstamp>5B642FEF</tstamp>
+    </comp>
+    <comp ref="U8">
+      <value>VL53L1X</value>
+      <footprint>footprint:VL53L1X</footprint>
+      <libsource lib="parts" part="VL53L1X"/>
+      <sheetpath names="/ToFSensors/FourToF/" tstamps="/5B640D2F/5B643BA0/"/>
+      <tstamp>5B642FEB</tstamp>
+    </comp>
+    <comp ref="C14">
+      <value>4.7u</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/ToFSensors/FourToF/" tstamps="/5B640D2F/5B643BA0/"/>
+      <tstamp>5B642FEC</tstamp>
+    </comp>
+    <comp ref="C13">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/ToFSensors/FourToF/" tstamps="/5B640D2F/5B643BA0/"/>
+      <tstamp>5B642FED</tstamp>
+    </comp>
+    <comp ref="J25">
+      <value>Top</value>
+      <footprint>footprint:ToFTop</footprint>
+      <libsource lib="conn" part="Conn_01x02"/>
+      <sheetpath names="/ToFSensors/FourToF/" tstamps="/5B640D2F/5B643BA0/"/>
+      <tstamp>5B642FEE</tstamp>
+    </comp>
+    <comp ref="J26">
+      <value>Bot</value>
+      <footprint>footprint:ToFBottom</footprint>
+      <libsource lib="conn" part="Conn_01x03"/>
+      <sheetpath names="/ToFSensors/FourToF/" tstamps="/5B640D2F/5B643BA0/"/>
+      <tstamp>5B642FEF</tstamp>
+    </comp>
+    <comp ref="U9">
+      <value>VL53L1X</value>
+      <footprint>footprint:VL53L1X</footprint>
+      <libsource lib="parts" part="VL53L1X"/>
+      <sheetpath names="/ToFSensors/FiveToF/" tstamps="/5B640D2F/5B643BA5/"/>
+      <tstamp>5B642FEB</tstamp>
+    </comp>
+    <comp ref="C16">
+      <value>4.7u</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/ToFSensors/FiveToF/" tstamps="/5B640D2F/5B643BA5/"/>
+      <tstamp>5B642FEC</tstamp>
+    </comp>
+    <comp ref="C15">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/ToFSensors/FiveToF/" tstamps="/5B640D2F/5B643BA5/"/>
+      <tstamp>5B642FED</tstamp>
+    </comp>
+    <comp ref="J27">
+      <value>Top</value>
+      <footprint>footprint:ToFTop</footprint>
+      <libsource lib="conn" part="Conn_01x02"/>
+      <sheetpath names="/ToFSensors/FiveToF/" tstamps="/5B640D2F/5B643BA5/"/>
+      <tstamp>5B642FEE</tstamp>
+    </comp>
+    <comp ref="J28">
+      <value>Bot</value>
+      <footprint>footprint:ToFBottom</footprint>
+      <libsource lib="conn" part="Conn_01x03"/>
+      <sheetpath names="/ToFSensors/FiveToF/" tstamps="/5B640D2F/5B643BA5/"/>
+      <tstamp>5B642FEF</tstamp>
+    </comp>
+    <comp ref="U10">
+      <value>VL53L1X</value>
+      <footprint>footprint:VL53L1X</footprint>
+      <libsource lib="parts" part="VL53L1X"/>
+      <sheetpath names="/ToFSensors/SixToF/" tstamps="/5B640D2F/5B645AA2/"/>
+      <tstamp>5B642FEB</tstamp>
+    </comp>
+    <comp ref="C18">
+      <value>4.7u</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/ToFSensors/SixToF/" tstamps="/5B640D2F/5B645AA2/"/>
+      <tstamp>5B642FEC</tstamp>
+    </comp>
+    <comp ref="C17">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/ToFSensors/SixToF/" tstamps="/5B640D2F/5B645AA2/"/>
+      <tstamp>5B642FED</tstamp>
+    </comp>
+    <comp ref="J29">
+      <value>Top</value>
+      <footprint>footprint:ToFTop</footprint>
+      <libsource lib="conn" part="Conn_01x02"/>
+      <sheetpath names="/ToFSensors/SixToF/" tstamps="/5B640D2F/5B645AA2/"/>
+      <tstamp>5B642FEE</tstamp>
+    </comp>
+    <comp ref="J30">
+      <value>Bot</value>
+      <footprint>footprint:ToFBottom</footprint>
+      <libsource lib="conn" part="Conn_01x03"/>
+      <sheetpath names="/ToFSensors/SixToF/" tstamps="/5B640D2F/5B645AA2/"/>
+      <tstamp>5B642FEF</tstamp>
+    </comp>
+    <comp ref="U11">
+      <value>VL53L1X</value>
+      <footprint>footprint:VL53L1X</footprint>
+      <libsource lib="parts" part="VL53L1X"/>
+      <sheetpath names="/ToFSensors/SevenToF/" tstamps="/5B640D2F/5B645F37/"/>
+      <tstamp>5B642FEB</tstamp>
+    </comp>
+    <comp ref="C20">
+      <value>4.7u</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/ToFSensors/SevenToF/" tstamps="/5B640D2F/5B645F37/"/>
+      <tstamp>5B642FEC</tstamp>
+    </comp>
+    <comp ref="C19">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/ToFSensors/SevenToF/" tstamps="/5B640D2F/5B645F37/"/>
+      <tstamp>5B642FED</tstamp>
+    </comp>
+    <comp ref="J31">
+      <value>Top</value>
+      <footprint>footprint:ToFTop</footprint>
+      <libsource lib="conn" part="Conn_01x02"/>
+      <sheetpath names="/ToFSensors/SevenToF/" tstamps="/5B640D2F/5B645F37/"/>
+      <tstamp>5B642FEE</tstamp>
+    </comp>
+    <comp ref="J32">
+      <value>Bot</value>
+      <footprint>footprint:ToFBottom</footprint>
+      <libsource lib="conn" part="Conn_01x03"/>
+      <sheetpath names="/ToFSensors/SevenToF/" tstamps="/5B640D2F/5B645F37/"/>
+      <tstamp>5B642FEF</tstamp>
+    </comp>
+    <comp ref="U12">
+      <value>VL53L1X</value>
+      <footprint>footprint:VL53L1X</footprint>
+      <libsource lib="parts" part="VL53L1X"/>
+      <sheetpath names="/ToFSensors/EightToF/" tstamps="/5B640D2F/5B645F3E/"/>
+      <tstamp>5B642FEB</tstamp>
+    </comp>
+    <comp ref="C22">
+      <value>4.7u</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/ToFSensors/EightToF/" tstamps="/5B640D2F/5B645F3E/"/>
+      <tstamp>5B642FEC</tstamp>
+    </comp>
+    <comp ref="C21">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/ToFSensors/EightToF/" tstamps="/5B640D2F/5B645F3E/"/>
+      <tstamp>5B642FED</tstamp>
+    </comp>
+    <comp ref="J33">
+      <value>Top</value>
+      <footprint>footprint:ToFTop</footprint>
+      <libsource lib="conn" part="Conn_01x02"/>
+      <sheetpath names="/ToFSensors/EightToF/" tstamps="/5B640D2F/5B645F3E/"/>
+      <tstamp>5B642FEE</tstamp>
+    </comp>
+    <comp ref="J34">
+      <value>Bot</value>
+      <footprint>footprint:ToFBottom</footprint>
+      <libsource lib="conn" part="Conn_01x03"/>
+      <sheetpath names="/ToFSensors/EightToF/" tstamps="/5B640D2F/5B645F3E/"/>
+      <tstamp>5B642FEF</tstamp>
+    </comp>
+    <comp ref="U13">
+      <value>VL53L1X</value>
+      <footprint>footprint:VL53L1X</footprint>
+      <libsource lib="parts" part="VL53L1X"/>
+      <sheetpath names="/ToFSensors/NineToF/" tstamps="/5B640D2F/5B645F43/"/>
+      <tstamp>5B642FEB</tstamp>
+    </comp>
+    <comp ref="C24">
+      <value>4.7u</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/ToFSensors/NineToF/" tstamps="/5B640D2F/5B645F43/"/>
+      <tstamp>5B642FEC</tstamp>
+    </comp>
+    <comp ref="C23">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/ToFSensors/NineToF/" tstamps="/5B640D2F/5B645F43/"/>
+      <tstamp>5B642FED</tstamp>
+    </comp>
+    <comp ref="J35">
+      <value>Top</value>
+      <footprint>footprint:ToFTop</footprint>
+      <libsource lib="conn" part="Conn_01x02"/>
+      <sheetpath names="/ToFSensors/NineToF/" tstamps="/5B640D2F/5B645F43/"/>
+      <tstamp>5B642FEE</tstamp>
+    </comp>
+    <comp ref="J36">
+      <value>Bot</value>
+      <footprint>footprint:ToFBottom</footprint>
+      <libsource lib="conn" part="Conn_01x03"/>
+      <sheetpath names="/ToFSensors/NineToF/" tstamps="/5B640D2F/5B645F43/"/>
+      <tstamp>5B642FEF</tstamp>
+    </comp>
+    <comp ref="U14">
+      <value>VL53L1X</value>
+      <footprint>footprint:VL53L1X</footprint>
+      <libsource lib="parts" part="VL53L1X"/>
+      <sheetpath names="/ToFSensors/TenToF/" tstamps="/5B640D2F/5B646046/"/>
+      <tstamp>5B642FEB</tstamp>
+    </comp>
+    <comp ref="C26">
+      <value>4.7u</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/ToFSensors/TenToF/" tstamps="/5B640D2F/5B646046/"/>
+      <tstamp>5B642FEC</tstamp>
+    </comp>
+    <comp ref="C25">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/ToFSensors/TenToF/" tstamps="/5B640D2F/5B646046/"/>
+      <tstamp>5B642FED</tstamp>
+    </comp>
+    <comp ref="J37">
+      <value>Top</value>
+      <footprint>footprint:ToFTop</footprint>
+      <libsource lib="conn" part="Conn_01x02"/>
+      <sheetpath names="/ToFSensors/TenToF/" tstamps="/5B640D2F/5B646046/"/>
+      <tstamp>5B642FEE</tstamp>
+    </comp>
+    <comp ref="J38">
+      <value>Bot</value>
+      <footprint>footprint:ToFBottom</footprint>
+      <libsource lib="conn" part="Conn_01x03"/>
+      <sheetpath names="/ToFSensors/TenToF/" tstamps="/5B640D2F/5B646046/"/>
+      <tstamp>5B642FEF</tstamp>
+    </comp>
+    <comp ref="U15">
+      <value>VL53L1X</value>
+      <footprint>footprint:VL53L1X</footprint>
+      <libsource lib="parts" part="VL53L1X"/>
+      <sheetpath names="/ToFSensors/ElevenToF/" tstamps="/5B640D2F/5B64604B/"/>
+      <tstamp>5B642FEB</tstamp>
+    </comp>
+    <comp ref="C28">
+      <value>4.7u</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/ToFSensors/ElevenToF/" tstamps="/5B640D2F/5B64604B/"/>
+      <tstamp>5B642FEC</tstamp>
+    </comp>
+    <comp ref="C27">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/ToFSensors/ElevenToF/" tstamps="/5B640D2F/5B64604B/"/>
+      <tstamp>5B642FED</tstamp>
+    </comp>
+    <comp ref="J39">
+      <value>Top</value>
+      <footprint>footprint:ToFTop</footprint>
+      <libsource lib="conn" part="Conn_01x02"/>
+      <sheetpath names="/ToFSensors/ElevenToF/" tstamps="/5B640D2F/5B64604B/"/>
+      <tstamp>5B642FEE</tstamp>
+    </comp>
+    <comp ref="J40">
+      <value>Bot</value>
+      <footprint>footprint:ToFBottom</footprint>
+      <libsource lib="conn" part="Conn_01x03"/>
+      <sheetpath names="/ToFSensors/ElevenToF/" tstamps="/5B640D2F/5B64604B/"/>
+      <tstamp>5B642FEF</tstamp>
+    </comp>
+    <comp ref="U16">
+      <value>VL53L1X</value>
+      <footprint>footprint:VL53L1X</footprint>
+      <libsource lib="parts" part="VL53L1X"/>
+      <sheetpath names="/ToFSensors/TwelveToF/" tstamps="/5B640D2F/5B64613F/"/>
+      <tstamp>5B642FEB</tstamp>
+    </comp>
+    <comp ref="C30">
+      <value>4.7u</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/ToFSensors/TwelveToF/" tstamps="/5B640D2F/5B64613F/"/>
+      <tstamp>5B642FEC</tstamp>
+    </comp>
+    <comp ref="C29">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/ToFSensors/TwelveToF/" tstamps="/5B640D2F/5B64613F/"/>
+      <tstamp>5B642FED</tstamp>
+    </comp>
+    <comp ref="J41">
+      <value>Top</value>
+      <footprint>footprint:ToFTop</footprint>
+      <libsource lib="conn" part="Conn_01x02"/>
+      <sheetpath names="/ToFSensors/TwelveToF/" tstamps="/5B640D2F/5B64613F/"/>
+      <tstamp>5B642FEE</tstamp>
+    </comp>
+    <comp ref="J42">
+      <value>Bot</value>
+      <footprint>footprint:ToFBottom</footprint>
+      <libsource lib="conn" part="Conn_01x03"/>
+      <sheetpath names="/ToFSensors/TwelveToF/" tstamps="/5B640D2F/5B64613F/"/>
+      <tstamp>5B642FEF</tstamp>
+    </comp>
+    <comp ref="U17">
+      <value>VL53L1X</value>
+      <footprint>footprint:VL53L1X</footprint>
+      <libsource lib="parts" part="VL53L1X"/>
+      <sheetpath names="/ToFSensors/ThirteenToF/" tstamps="/5B640D2F/5B646233/"/>
+      <tstamp>5B642FEB</tstamp>
+    </comp>
+    <comp ref="C32">
+      <value>4.7u</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/ToFSensors/ThirteenToF/" tstamps="/5B640D2F/5B646233/"/>
+      <tstamp>5B642FEC</tstamp>
+    </comp>
+    <comp ref="C31">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/ToFSensors/ThirteenToF/" tstamps="/5B640D2F/5B646233/"/>
+      <tstamp>5B642FED</tstamp>
+    </comp>
+    <comp ref="J43">
+      <value>Top</value>
+      <footprint>footprint:ToFTop</footprint>
+      <libsource lib="conn" part="Conn_01x02"/>
+      <sheetpath names="/ToFSensors/ThirteenToF/" tstamps="/5B640D2F/5B646233/"/>
+      <tstamp>5B642FEE</tstamp>
+    </comp>
+    <comp ref="J44">
+      <value>Bot</value>
+      <footprint>footprint:ToFBottom</footprint>
+      <libsource lib="conn" part="Conn_01x03"/>
+      <sheetpath names="/ToFSensors/ThirteenToF/" tstamps="/5B640D2F/5B646233/"/>
+      <tstamp>5B642FEF</tstamp>
+    </comp>
+    <comp ref="U18">
+      <value>VL53L1X</value>
+      <footprint>footprint:VL53L1X</footprint>
+      <libsource lib="parts" part="VL53L1X"/>
+      <sheetpath names="/ToFSensors/FourteenToF/" tstamps="/5B640D2F/5B646238/"/>
+      <tstamp>5B642FEB</tstamp>
+    </comp>
+    <comp ref="C34">
+      <value>4.7u</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/ToFSensors/FourteenToF/" tstamps="/5B640D2F/5B646238/"/>
+      <tstamp>5B642FEC</tstamp>
+    </comp>
+    <comp ref="C33">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/ToFSensors/FourteenToF/" tstamps="/5B640D2F/5B646238/"/>
+      <tstamp>5B642FED</tstamp>
+    </comp>
+    <comp ref="J45">
+      <value>Top</value>
+      <footprint>footprint:ToFTop</footprint>
+      <libsource lib="conn" part="Conn_01x02"/>
+      <sheetpath names="/ToFSensors/FourteenToF/" tstamps="/5B640D2F/5B646238/"/>
+      <tstamp>5B642FEE</tstamp>
+    </comp>
+    <comp ref="J46">
+      <value>Bot</value>
+      <footprint>footprint:ToFBottom</footprint>
+      <libsource lib="conn" part="Conn_01x03"/>
+      <sheetpath names="/ToFSensors/FourteenToF/" tstamps="/5B640D2F/5B646238/"/>
+      <tstamp>5B642FEF</tstamp>
+    </comp>
+    <comp ref="U19">
+      <value>VL53L1X</value>
+      <footprint>footprint:VL53L1X</footprint>
+      <libsource lib="parts" part="VL53L1X"/>
+      <sheetpath names="/ToFSensors/FifteenToF/" tstamps="/5B640D2F/5B64623D/"/>
+      <tstamp>5B642FEB</tstamp>
+    </comp>
+    <comp ref="C36">
+      <value>4.7u</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/ToFSensors/FifteenToF/" tstamps="/5B640D2F/5B64623D/"/>
+      <tstamp>5B642FEC</tstamp>
+    </comp>
+    <comp ref="C35">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/ToFSensors/FifteenToF/" tstamps="/5B640D2F/5B64623D/"/>
+      <tstamp>5B642FED</tstamp>
+    </comp>
+    <comp ref="J47">
+      <value>Top</value>
+      <footprint>footprint:ToFTop</footprint>
+      <libsource lib="conn" part="Conn_01x02"/>
+      <sheetpath names="/ToFSensors/FifteenToF/" tstamps="/5B640D2F/5B64623D/"/>
+      <tstamp>5B642FEE</tstamp>
+    </comp>
+    <comp ref="J48">
+      <value>Bot</value>
+      <footprint>footprint:ToFBottom</footprint>
+      <libsource lib="conn" part="Conn_01x03"/>
+      <sheetpath names="/ToFSensors/FifteenToF/" tstamps="/5B640D2F/5B64623D/"/>
+      <tstamp>5B642FEF</tstamp>
+    </comp>
+    <comp ref="U4">
+      <value>AMG8833</value>
+      <footprint>footprint:AMG8833</footprint>
+      <libsource lib="parts" part="AMG8833"/>
+      <sheetpath names="/Camera/" tstamps="/5B640EC2/"/>
+      <tstamp>5B64157F</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>1.5u</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/Camera/" tstamps="/5B640EC2/"/>
+      <tstamp>5B641580</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>1u</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/Camera/" tstamps="/5B640EC2/"/>
+      <tstamp>5B641581</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>10u</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/Camera/" tstamps="/5B640EC2/"/>
+      <tstamp>5B641582</tstamp>
+    </comp>
+    <comp ref="R18">
+      <value>20R</value>
+      <footprint>Resistors_SMD:R_0402</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Camera/" tstamps="/5B640EC2/"/>
+      <tstamp>5B641583</tstamp>
+    </comp>
+    <comp ref="J17">
+      <value>IntCon</value>
+      <footprint>Connectors:GS2</footprint>
+      <libsource lib="conn" part="GS2"/>
+      <sheetpath names="/Camera/" tstamps="/5B640EC2/"/>
+      <tstamp>5B641584</tstamp>
+    </comp>
+    <comp ref="R15">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0402</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Camera/" tstamps="/5B640EC2/"/>
+      <tstamp>5B641585</tstamp>
+    </comp>
+    <comp ref="R16">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0402</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Camera/" tstamps="/5B640EC2/"/>
+      <tstamp>5B641586</tstamp>
+    </comp>
+    <comp ref="R17">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0402</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Camera/" tstamps="/5B640EC2/"/>
+      <tstamp>5B641587</tstamp>
+    </comp>
+    <comp ref="J16">
+      <value>PulCon</value>
+      <footprint>Connectors:GS2</footprint>
+      <libsource lib="conn" part="GS2"/>
+      <sheetpath names="/Camera/" tstamps="/5B640EC2/"/>
+      <tstamp>5B641588</tstamp>
+    </comp>
+    <comp ref="J18">
+      <value>Camera</value>
+      <footprint>footprint:AMGCam</footprint>
+      <libsource lib="conn" part="Conn_01x05"/>
+      <sheetpath names="/Camera/" tstamps="/5B640EC2/"/>
+      <tstamp>5B641589</tstamp>
+    </comp>
   </components>
   <libparts>
+    <libpart lib="parts" part="AMG8833">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">AMG8833</field>
+      </fields>
+      <pins>
+        <pin num="1" name="NC" type="input"/>
+        <pin num="2" name="SDA" type="input"/>
+        <pin num="3" name="SCL" type="input"/>
+        <pin num="4" name="INT" type="input"/>
+        <pin num="5" name="ADSel" type="input"/>
+        <pin num="6" name="GND" type="input"/>
+        <pin num="7" name="NC" type="input"/>
+        <pin num="8" name="NC" type="input"/>
+        <pin num="9" name="VDD" type="input"/>
+        <pin num="10" name="AVDD" type="input"/>
+        <pin num="11" name="NC" type="input"/>
+        <pin num="12" name="DVDD" type="input"/>
+        <pin num="13" name="VPP" type="input"/>
+        <pin num="14" name="NC" type="input"/>
+      </pins>
+    </libpart>
     <libpart lib="device" part="C_Small">
       <description>Unpolarized capacitor</description>
       <footprints>
@@ -285,6 +1130,47 @@
       <pins>
         <pin num="1" name="~" type="passive"/>
         <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="Conn_01x02">
+      <description>Generic connector, single row, 01x02</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_??x*mm*</fp>
+        <fp>Connector*:*1x??x*mm*</fp>
+        <fp>Pin?Header?Straight?1X*</fp>
+        <fp>Pin?Header?Angled?1X*</fp>
+        <fp>Socket?Strip?Straight?1X*</fp>
+        <fp>Socket?Strip?Angled?1X*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="Conn_01x03">
+      <description>Generic connector, single row, 01x03</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_??x*mm*</fp>
+        <fp>Connector*:*1x??x*mm*</fp>
+        <fp>Pin?Header?Straight?1X*</fp>
+        <fp>Pin?Header?Angled?1X*</fp>
+        <fp>Socket?Strip?Straight?1X*</fp>
+        <fp>Socket?Strip?Angled?1X*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x03</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="conn" part="Conn_01x05">
@@ -347,6 +1233,21 @@
         <pin num="1" name="IO" type="input"/>
         <pin num="2" name="NC" type="input"/>
         <pin num="3" name="GND" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="GS2">
+      <description>2-pin jumper/solder bridge</description>
+      <footprints>
+        <fp>GS*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">GS2</field>
+        <field name="Footprint">Connectors:GS2</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G1" type="passive"/>
+        <pin num="2" name="G2" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="device" part="LED_ALT">
@@ -432,94 +1333,94 @@
     </libpart>
   </libparts>
   <libraries>
-    <library logical="device">
-      <uri>/usr/share/kicad/library/device.lib</uri>
-    </library>
     <library logical="conn">
       <uri>/usr/share/kicad/library/conn.lib</uri>
     </library>
     <library logical="parts">
       <uri>/home/knight/Documents/KiCAD/CrazyFlieCustomBoard/parts.lib</uri>
     </library>
+    <library logical="device">
+      <uri>/usr/share/kicad/library/device.lib</uri>
+    </library>
   </libraries>
   <nets>
     <net code="1" name="Net-(U3-Pad7)">
       <node ref="U3" pin="7"/>
     </net>
-    <net code="2" name="SCL">
-      <node ref="J14" pin="4"/>
-      <node ref="J15" pin="3"/>
-      <node ref="J3" pin="4"/>
-      <node ref="J7" pin="4"/>
-      <node ref="J13" pin="4"/>
-      <node ref="U2" pin="19"/>
-      <node ref="J8" pin="4"/>
-      <node ref="J6" pin="4"/>
-      <node ref="J5" pin="4"/>
-      <node ref="J2" pin="5"/>
-      <node ref="J4" pin="4"/>
-      <node ref="J10" pin="4"/>
-      <node ref="J9" pin="4"/>
-      <node ref="J12" pin="4"/>
-      <node ref="U3" pin="10"/>
-      <node ref="J11" pin="4"/>
+    <net code="2" name="S15">
+      <node ref="U3" pin="5"/>
+      <node ref="R4" pin="1"/>
+      <node ref="U2" pin="17"/>
     </net>
-    <net code="3" name="SDA">
-      <node ref="J11" pin="3"/>
-      <node ref="J12" pin="3"/>
-      <node ref="J8" pin="3"/>
-      <node ref="J4" pin="3"/>
-      <node ref="J14" pin="3"/>
-      <node ref="J7" pin="3"/>
-      <node ref="J13" pin="3"/>
-      <node ref="J15" pin="4"/>
-      <node ref="J3" pin="3"/>
-      <node ref="J9" pin="3"/>
-      <node ref="J10" pin="3"/>
+    <net code="3" name="SCL">
+      <node ref="J10" pin="4"/>
+      <node ref="J6" pin="4"/>
+      <node ref="J14" pin="4"/>
+      <node ref="J8" pin="4"/>
+      <node ref="J7" pin="4"/>
+      <node ref="J11" pin="4"/>
+      <node ref="J12" pin="4"/>
+      <node ref="J13" pin="4"/>
+      <node ref="J3" pin="4"/>
+      <node ref="J15" pin="3"/>
+      <node ref="J4" pin="4"/>
+      <node ref="J2" pin="5"/>
+      <node ref="U2" pin="19"/>
+      <node ref="J9" pin="4"/>
+      <node ref="J5" pin="4"/>
+      <node ref="U3" pin="10"/>
+    </net>
+    <net code="4" name="SDA">
       <node ref="J6" pin="3"/>
       <node ref="U2" pin="20"/>
       <node ref="J2" pin="4"/>
+      <node ref="J13" pin="3"/>
+      <node ref="J4" pin="3"/>
       <node ref="J5" pin="3"/>
+      <node ref="J15" pin="4"/>
+      <node ref="J8" pin="3"/>
+      <node ref="J11" pin="3"/>
       <node ref="U3" pin="9"/>
+      <node ref="J3" pin="3"/>
+      <node ref="J12" pin="3"/>
+      <node ref="J7" pin="3"/>
+      <node ref="J10" pin="3"/>
+      <node ref="J9" pin="3"/>
+      <node ref="J14" pin="3"/>
     </net>
-    <net code="4" name="Net-(U3-Pad8)">
+    <net code="5" name="Net-(U3-Pad8)">
       <node ref="U3" pin="8"/>
     </net>
-    <net code="5" name="VCC">
-      <node ref="J9" pin="5"/>
-      <node ref="J12" pin="5"/>
+    <net code="6" name="VCC">
       <node ref="J15" pin="5"/>
-      <node ref="J11" pin="5"/>
-      <node ref="C1" pin="1"/>
+      <node ref="J5" pin="5"/>
       <node ref="J3" pin="5"/>
       <node ref="R1" pin="1"/>
+      <node ref="C2" pin="1"/>
       <node ref="U2" pin="21"/>
+      <node ref="J9" pin="5"/>
+      <node ref="C1" pin="1"/>
       <node ref="J2" pin="1"/>
       <node ref="J4" pin="5"/>
-      <node ref="J7" pin="5"/>
-      <node ref="J13" pin="5"/>
-      <node ref="U3" pin="1"/>
-      <node ref="J14" pin="5"/>
-      <node ref="J10" pin="5"/>
       <node ref="U3" pin="11"/>
-      <node ref="J6" pin="5"/>
-      <node ref="J5" pin="5"/>
-      <node ref="J8" pin="5"/>
-      <node ref="C2" pin="1"/>
+      <node ref="U3" pin="1"/>
+      <node ref="J13" pin="5"/>
+      <node ref="J7" pin="5"/>
+      <node ref="J14" pin="5"/>
+      <node ref="J12" pin="5"/>
       <node ref="C3" pin="1"/>
-    </net>
-    <net code="6" name="S15">
-      <node ref="U2" pin="17"/>
-      <node ref="U3" pin="5"/>
-      <node ref="R4" pin="1"/>
+      <node ref="J10" pin="5"/>
+      <node ref="J8" pin="5"/>
+      <node ref="J6" pin="5"/>
+      <node ref="J11" pin="5"/>
     </net>
     <net code="7" name="S12">
       <node ref="U2" pin="14"/>
-      <node ref="J14" pin="2"/>
       <node ref="R14" pin="2"/>
+      <node ref="J14" pin="2"/>
     </net>
-    <net code="8" name="Net-(J2-Pad3)">
-      <node ref="J2" pin="3"/>
+    <net code="8" name="Net-(J1-Pad10)">
+      <node ref="J1" pin="10"/>
     </net>
     <net code="9" name="Net-(J1-Pad5)">
       <node ref="J1" pin="5"/>
@@ -545,8 +1446,8 @@
     <net code="16" name="Net-(J1-Pad9)">
       <node ref="J1" pin="9"/>
     </net>
-    <net code="17" name="Net-(J1-Pad10)">
-      <node ref="J1" pin="10"/>
+    <net code="17" name="Net-(J2-Pad3)">
+      <node ref="J2" pin="3"/>
     </net>
     <net code="18" name="Net-(J2-Pad2)">
       <node ref="J2" pin="2"/>
@@ -563,129 +1464,721 @@
     <net code="22" name="Net-(J2-Pad9)">
       <node ref="J2" pin="9"/>
     </net>
-    <net code="23" name="Net-(U2-Pad15)">
-      <node ref="U2" pin="15"/>
+    <net code="23" name="Net-(U2-Pad16)">
+      <node ref="U2" pin="16"/>
     </net>
     <net code="24" name="Net-(J15-Pad2)">
       <node ref="J15" pin="2"/>
     </net>
-    <net code="25" name="Net-(U2-Pad16)">
-      <node ref="U2" pin="16"/>
+    <net code="25" name="Net-(U2-Pad15)">
+      <node ref="U2" pin="15"/>
     </net>
     <net code="26" name="Net-(U2-Pad22)">
       <node ref="U2" pin="22"/>
     </net>
     <net code="27" name="GND">
-      <node ref="J11" pin="1"/>
-      <node ref="C1" pin="2"/>
       <node ref="J9" pin="1"/>
-      <node ref="J5" pin="1"/>
       <node ref="J7" pin="1"/>
-      <node ref="J8" pin="1"/>
-      <node ref="J12" pin="1"/>
-      <node ref="J13" pin="1"/>
       <node ref="J3" pin="1"/>
-      <node ref="J4" pin="1"/>
+      <node ref="J12" pin="1"/>
       <node ref="J10" pin="1"/>
-      <node ref="J2" pin="10"/>
-      <node ref="U2" pin="9"/>
-      <node ref="U2" pin="23"/>
-      <node ref="U2" pin="24"/>
-      <node ref="U2" pin="18"/>
+      <node ref="J13" pin="1"/>
       <node ref="J6" pin="1"/>
-      <node ref="R13" pin="1"/>
-      <node ref="R11" pin="1"/>
+      <node ref="J11" pin="1"/>
+      <node ref="J2" pin="10"/>
+      <node ref="C1" pin="2"/>
+      <node ref="J4" pin="1"/>
+      <node ref="J5" pin="1"/>
+      <node ref="J8" pin="1"/>
+      <node ref="U2" pin="18"/>
+      <node ref="U2" pin="24"/>
+      <node ref="U2" pin="23"/>
+      <node ref="U2" pin="9"/>
+      <node ref="R3" pin="1"/>
+      <node ref="U3" pin="2"/>
+      <node ref="R5" pin="1"/>
+      <node ref="U3" pin="3"/>
+      <node ref="J14" pin="1"/>
       <node ref="R10" pin="1"/>
+      <node ref="R11" pin="1"/>
       <node ref="R9" pin="1"/>
       <node ref="J15" pin="1"/>
       <node ref="R14" pin="1"/>
-      <node ref="R3" pin="1"/>
-      <node ref="R2" pin="1"/>
-      <node ref="C2" pin="2"/>
-      <node ref="U3" pin="12"/>
-      <node ref="U3" pin="6"/>
-      <node ref="U3" pin="4"/>
-      <node ref="C3" pin="2"/>
-      <node ref="U3" pin="3"/>
-      <node ref="J14" pin="1"/>
-      <node ref="U3" pin="2"/>
       <node ref="R12" pin="1"/>
-      <node ref="R5" pin="1"/>
-      <node ref="R8" pin="1"/>
-      <node ref="R7" pin="1"/>
+      <node ref="R13" pin="1"/>
+      <node ref="R2" pin="1"/>
+      <node ref="U3" pin="12"/>
+      <node ref="C2" pin="2"/>
       <node ref="R6" pin="1"/>
       <node ref="R4" pin="2"/>
       <node ref="U1" pin="3"/>
+      <node ref="U3" pin="4"/>
+      <node ref="R8" pin="1"/>
+      <node ref="C3" pin="2"/>
+      <node ref="U3" pin="6"/>
+      <node ref="R7" pin="1"/>
     </net>
-    <net code="28" name="OW">
+    <net code="28" name="S01">
+      <node ref="J3" pin="2"/>
+      <node ref="U2" pin="2"/>
+      <node ref="R2" pin="2"/>
+    </net>
+    <net code="29" name="OW">
       <node ref="U1" pin="1"/>
       <node ref="J1" pin="8"/>
     </net>
-    <net code="29" name="Net-(U1-Pad2)">
+    <net code="30" name="Net-(U1-Pad2)">
       <node ref="U1" pin="2"/>
     </net>
-    <net code="30" name="Net-(D1-Pad2)">
+    <net code="31" name="Net-(D1-Pad2)">
       <node ref="D1" pin="2"/>
       <node ref="R1" pin="2"/>
     </net>
-    <net code="31" name="S10">
-      <node ref="U2" pin="12"/>
-      <node ref="R12" pin="2"/>
+    <net code="32" name="S10">
       <node ref="J12" pin="2"/>
+      <node ref="R12" pin="2"/>
+      <node ref="U2" pin="12"/>
     </net>
-    <net code="32" name="Net-(D1-Pad1)">
+    <net code="33" name="Net-(D1-Pad1)">
       <node ref="D1" pin="1"/>
       <node ref="U2" pin="1"/>
     </net>
-    <net code="33" name="S09">
+    <net code="34" name="S09">
       <node ref="J11" pin="2"/>
       <node ref="R11" pin="2"/>
       <node ref="U2" pin="11"/>
     </net>
-    <net code="34" name="S08">
-      <node ref="R10" pin="2"/>
-      <node ref="J10" pin="2"/>
+    <net code="35" name="S08">
       <node ref="U2" pin="10"/>
+      <node ref="J10" pin="2"/>
+      <node ref="R10" pin="2"/>
     </net>
-    <net code="35" name="S07">
+    <net code="36" name="S07">
       <node ref="U2" pin="8"/>
-      <node ref="J9" pin="2"/>
       <node ref="R9" pin="2"/>
+      <node ref="J9" pin="2"/>
     </net>
-    <net code="36" name="S06">
-      <node ref="R8" pin="2"/>
+    <net code="37" name="S06">
       <node ref="J8" pin="2"/>
+      <node ref="R8" pin="2"/>
       <node ref="U2" pin="7"/>
     </net>
-    <net code="37" name="S05">
+    <net code="38" name="S05">
       <node ref="U2" pin="6"/>
-      <node ref="J7" pin="2"/>
       <node ref="R7" pin="2"/>
+      <node ref="J7" pin="2"/>
     </net>
-    <net code="38" name="S04">
-      <node ref="U2" pin="5"/>
-      <node ref="R6" pin="2"/>
+    <net code="39" name="S04">
       <node ref="J6" pin="2"/>
+      <node ref="R6" pin="2"/>
+      <node ref="U2" pin="5"/>
     </net>
-    <net code="39" name="S03">
-      <node ref="R5" pin="2"/>
+    <net code="40" name="S03">
       <node ref="U2" pin="4"/>
       <node ref="J5" pin="2"/>
+      <node ref="R5" pin="2"/>
     </net>
-    <net code="40" name="S02">
-      <node ref="U2" pin="3"/>
-      <node ref="J4" pin="2"/>
+    <net code="41" name="S02">
       <node ref="R3" pin="2"/>
-    </net>
-    <net code="41" name="S01">
-      <node ref="U2" pin="2"/>
-      <node ref="J3" pin="2"/>
-      <node ref="R2" pin="2"/>
+      <node ref="J4" pin="2"/>
+      <node ref="U2" pin="3"/>
     </net>
     <net code="42" name="S11">
       <node ref="J13" pin="2"/>
       <node ref="R13" pin="2"/>
       <node ref="U2" pin="13"/>
+    </net>
+    <net code="43" name="Net-(C5-Pad1)">
+      <node ref="U4" pin="10"/>
+      <node ref="C5" pin="1"/>
+    </net>
+    <net code="44" name="Net-(C6-Pad1)">
+      <node ref="C6" pin="1"/>
+      <node ref="U4" pin="12"/>
+    </net>
+    <net code="45" name="Net-(C5-Pad2)">
+      <node ref="C5" pin="2"/>
+      <node ref="R18" pin="1"/>
+    </net>
+    <net code="46" name="Net-(U4-Pad1)">
+      <node ref="U4" pin="1"/>
+    </net>
+    <net code="47" name="Net-(U4-Pad7)">
+      <node ref="U4" pin="7"/>
+    </net>
+    <net code="48" name="Net-(U4-Pad8)">
+      <node ref="U4" pin="8"/>
+    </net>
+    <net code="49" name="Net-(U4-Pad11)">
+      <node ref="U4" pin="11"/>
+    </net>
+    <net code="50" name="Net-(U4-Pad14)">
+      <node ref="U4" pin="14"/>
+    </net>
+    <net code="51" name="Net-(J16-Pad2)">
+      <node ref="J16" pin="2"/>
+      <node ref="U4" pin="4"/>
+      <node ref="J17" pin="1"/>
+    </net>
+    <net code="52" name="Net-(J16-Pad1)">
+      <node ref="R15" pin="2"/>
+      <node ref="J16" pin="1"/>
+    </net>
+    <net code="53" name="GNDCam">
+      <node ref="C4" pin="2"/>
+      <node ref="J18" pin="1"/>
+      <node ref="C6" pin="2"/>
+      <node ref="R18" pin="2"/>
+      <node ref="U4" pin="6"/>
+      <node ref="U4" pin="5"/>
+    </net>
+    <net code="54" name="INTCam">
+      <node ref="J18" pin="2"/>
+      <node ref="J17" pin="2"/>
+    </net>
+    <net code="55" name="SCLCam">
+      <node ref="R16" pin="2"/>
+      <node ref="U4" pin="3"/>
+      <node ref="J18" pin="3"/>
+    </net>
+    <net code="56" name="SDACam">
+      <node ref="J18" pin="4"/>
+      <node ref="U4" pin="2"/>
+      <node ref="R17" pin="2"/>
+    </net>
+    <net code="57" name="VCCCam">
+      <node ref="C4" pin="1"/>
+      <node ref="R15" pin="1"/>
+      <node ref="U4" pin="13"/>
+      <node ref="J18" pin="5"/>
+      <node ref="U4" pin="9"/>
+      <node ref="R16" pin="1"/>
+      <node ref="R17" pin="1"/>
+    </net>
+    <net code="58" name="Net-(J19-Pad1)">
+      <node ref="U5" pin="10"/>
+      <node ref="J19" pin="1"/>
+    </net>
+    <net code="59" name="Net-(J20-Pad2)">
+      <node ref="J20" pin="2"/>
+      <node ref="U5" pin="9"/>
+    </net>
+    <net code="60" name="Net-(J19-Pad2)">
+      <node ref="U5" pin="5"/>
+      <node ref="J19" pin="2"/>
+    </net>
+    <net code="61" name="Net-(U5-Pad7)">
+      <node ref="U5" pin="7"/>
+    </net>
+    <net code="62" name="Net-(U5-Pad8)">
+      <node ref="U5" pin="8"/>
+    </net>
+    <net code="63" name="Net-(C7-Pad1)">
+      <node ref="U5" pin="11"/>
+      <node ref="C8" pin="1"/>
+      <node ref="C7" pin="1"/>
+      <node ref="J20" pin="1"/>
+      <node ref="U5" pin="1"/>
+    </net>
+    <net code="64" name="Net-(C7-Pad2)">
+      <node ref="C7" pin="2"/>
+      <node ref="U5" pin="2"/>
+      <node ref="C8" pin="2"/>
+      <node ref="U5" pin="12"/>
+      <node ref="U5" pin="6"/>
+      <node ref="U5" pin="4"/>
+      <node ref="U5" pin="3"/>
+      <node ref="J20" pin="3"/>
+    </net>
+    <net code="65" name="Net-(U6-Pad8)">
+      <node ref="U6" pin="8"/>
+    </net>
+    <net code="66" name="Net-(U6-Pad7)">
+      <node ref="U6" pin="7"/>
+    </net>
+    <net code="67" name="Net-(C10-Pad2)">
+      <node ref="U6" pin="12"/>
+      <node ref="U6" pin="4"/>
+      <node ref="C9" pin="2"/>
+      <node ref="U6" pin="6"/>
+      <node ref="U6" pin="3"/>
+      <node ref="U6" pin="2"/>
+      <node ref="J22" pin="3"/>
+      <node ref="C10" pin="2"/>
+    </net>
+    <net code="68" name="Net-(C10-Pad1)">
+      <node ref="J22" pin="1"/>
+      <node ref="C10" pin="1"/>
+      <node ref="U6" pin="11"/>
+      <node ref="C9" pin="1"/>
+      <node ref="U6" pin="1"/>
+    </net>
+    <net code="69" name="Net-(J22-Pad2)">
+      <node ref="J22" pin="2"/>
+      <node ref="U6" pin="9"/>
+    </net>
+    <net code="70" name="Net-(J21-Pad2)">
+      <node ref="J21" pin="2"/>
+      <node ref="U6" pin="5"/>
+    </net>
+    <net code="71" name="Net-(J21-Pad1)">
+      <node ref="J21" pin="1"/>
+      <node ref="U6" pin="10"/>
+    </net>
+    <net code="72" name="Net-(J23-Pad1)">
+      <node ref="J23" pin="1"/>
+      <node ref="U7" pin="10"/>
+    </net>
+    <net code="73" name="Net-(J24-Pad2)">
+      <node ref="J24" pin="2"/>
+      <node ref="U7" pin="9"/>
+    </net>
+    <net code="74" name="Net-(J23-Pad2)">
+      <node ref="U7" pin="5"/>
+      <node ref="J23" pin="2"/>
+    </net>
+    <net code="75" name="Net-(C11-Pad1)">
+      <node ref="U7" pin="11"/>
+      <node ref="U7" pin="1"/>
+      <node ref="C12" pin="1"/>
+      <node ref="J24" pin="1"/>
+      <node ref="C11" pin="1"/>
+    </net>
+    <net code="76" name="Net-(U7-Pad7)">
+      <node ref="U7" pin="7"/>
+    </net>
+    <net code="77" name="Net-(U7-Pad8)">
+      <node ref="U7" pin="8"/>
+    </net>
+    <net code="78" name="Net-(C11-Pad2)">
+      <node ref="J24" pin="3"/>
+      <node ref="C11" pin="2"/>
+      <node ref="U7" pin="2"/>
+      <node ref="U7" pin="3"/>
+      <node ref="U7" pin="4"/>
+      <node ref="U7" pin="6"/>
+      <node ref="U7" pin="12"/>
+      <node ref="C12" pin="2"/>
+    </net>
+    <net code="79" name="Net-(J25-Pad1)">
+      <node ref="J25" pin="1"/>
+      <node ref="U8" pin="10"/>
+    </net>
+    <net code="80" name="Net-(J26-Pad2)">
+      <node ref="U8" pin="9"/>
+      <node ref="J26" pin="2"/>
+    </net>
+    <net code="81" name="Net-(J25-Pad2)">
+      <node ref="U8" pin="5"/>
+      <node ref="J25" pin="2"/>
+    </net>
+    <net code="82" name="Net-(U8-Pad7)">
+      <node ref="U8" pin="7"/>
+    </net>
+    <net code="83" name="Net-(U8-Pad8)">
+      <node ref="U8" pin="8"/>
+    </net>
+    <net code="84" name="Net-(C13-Pad1)">
+      <node ref="J26" pin="1"/>
+      <node ref="U8" pin="11"/>
+      <node ref="C14" pin="1"/>
+      <node ref="C13" pin="1"/>
+      <node ref="U8" pin="1"/>
+    </net>
+    <net code="85" name="Net-(C13-Pad2)">
+      <node ref="C14" pin="2"/>
+      <node ref="U8" pin="12"/>
+      <node ref="J26" pin="3"/>
+      <node ref="U8" pin="6"/>
+      <node ref="U8" pin="4"/>
+      <node ref="U8" pin="3"/>
+      <node ref="U8" pin="2"/>
+      <node ref="C13" pin="2"/>
+    </net>
+    <net code="86" name="Net-(U9-Pad8)">
+      <node ref="U9" pin="8"/>
+    </net>
+    <net code="87" name="Net-(U9-Pad7)">
+      <node ref="U9" pin="7"/>
+    </net>
+    <net code="88" name="Net-(J27-Pad1)">
+      <node ref="U9" pin="10"/>
+      <node ref="J27" pin="1"/>
+    </net>
+    <net code="89" name="Net-(C15-Pad1)">
+      <node ref="C15" pin="1"/>
+      <node ref="C16" pin="1"/>
+      <node ref="U9" pin="11"/>
+      <node ref="U9" pin="1"/>
+      <node ref="J28" pin="1"/>
+    </net>
+    <net code="90" name="Net-(J27-Pad2)">
+      <node ref="U9" pin="5"/>
+      <node ref="J27" pin="2"/>
+    </net>
+    <net code="91" name="Net-(J28-Pad2)">
+      <node ref="J28" pin="2"/>
+      <node ref="U9" pin="9"/>
+    </net>
+    <net code="92" name="Net-(C15-Pad2)">
+      <node ref="C16" pin="2"/>
+      <node ref="J28" pin="3"/>
+      <node ref="U9" pin="2"/>
+      <node ref="U9" pin="12"/>
+      <node ref="C15" pin="2"/>
+      <node ref="U9" pin="6"/>
+      <node ref="U9" pin="4"/>
+      <node ref="U9" pin="3"/>
+    </net>
+    <net code="93" name="Net-(J29-Pad1)">
+      <node ref="U10" pin="10"/>
+      <node ref="J29" pin="1"/>
+    </net>
+    <net code="94" name="Net-(J30-Pad2)">
+      <node ref="U10" pin="9"/>
+      <node ref="J30" pin="2"/>
+    </net>
+    <net code="95" name="Net-(J29-Pad2)">
+      <node ref="J29" pin="2"/>
+      <node ref="U10" pin="5"/>
+    </net>
+    <net code="96" name="Net-(U10-Pad7)">
+      <node ref="U10" pin="7"/>
+    </net>
+    <net code="97" name="Net-(U10-Pad8)">
+      <node ref="U10" pin="8"/>
+    </net>
+    <net code="98" name="Net-(C17-Pad1)">
+      <node ref="U10" pin="1"/>
+      <node ref="J30" pin="1"/>
+      <node ref="U10" pin="11"/>
+      <node ref="C18" pin="1"/>
+      <node ref="C17" pin="1"/>
+    </net>
+    <net code="99" name="Net-(C17-Pad2)">
+      <node ref="U10" pin="2"/>
+      <node ref="J30" pin="3"/>
+      <node ref="C17" pin="2"/>
+      <node ref="C18" pin="2"/>
+      <node ref="U10" pin="12"/>
+      <node ref="U10" pin="6"/>
+      <node ref="U10" pin="4"/>
+      <node ref="U10" pin="3"/>
+    </net>
+    <net code="100" name="Net-(J31-Pad1)">
+      <node ref="U11" pin="10"/>
+      <node ref="J31" pin="1"/>
+    </net>
+    <net code="101" name="Net-(J32-Pad2)">
+      <node ref="J32" pin="2"/>
+      <node ref="U11" pin="9"/>
+    </net>
+    <net code="102" name="Net-(J31-Pad2)">
+      <node ref="J31" pin="2"/>
+      <node ref="U11" pin="5"/>
+    </net>
+    <net code="103" name="Net-(U11-Pad7)">
+      <node ref="U11" pin="7"/>
+    </net>
+    <net code="104" name="Net-(U11-Pad8)">
+      <node ref="U11" pin="8"/>
+    </net>
+    <net code="105" name="Net-(C19-Pad1)">
+      <node ref="U11" pin="11"/>
+      <node ref="C20" pin="1"/>
+      <node ref="C19" pin="1"/>
+      <node ref="J32" pin="1"/>
+      <node ref="U11" pin="1"/>
+    </net>
+    <net code="106" name="Net-(C19-Pad2)">
+      <node ref="U11" pin="2"/>
+      <node ref="J32" pin="3"/>
+      <node ref="C19" pin="2"/>
+      <node ref="C20" pin="2"/>
+      <node ref="U11" pin="12"/>
+      <node ref="U11" pin="6"/>
+      <node ref="U11" pin="4"/>
+      <node ref="U11" pin="3"/>
+    </net>
+    <net code="107" name="Net-(U12-Pad8)">
+      <node ref="U12" pin="8"/>
+    </net>
+    <net code="108" name="Net-(U12-Pad7)">
+      <node ref="U12" pin="7"/>
+    </net>
+    <net code="109" name="Net-(J33-Pad1)">
+      <node ref="U12" pin="10"/>
+      <node ref="J33" pin="1"/>
+    </net>
+    <net code="110" name="Net-(C21-Pad1)">
+      <node ref="U12" pin="11"/>
+      <node ref="C22" pin="1"/>
+      <node ref="C21" pin="1"/>
+      <node ref="J34" pin="1"/>
+      <node ref="U12" pin="1"/>
+    </net>
+    <net code="111" name="Net-(J33-Pad2)">
+      <node ref="J33" pin="2"/>
+      <node ref="U12" pin="5"/>
+    </net>
+    <net code="112" name="Net-(J34-Pad2)">
+      <node ref="U12" pin="9"/>
+      <node ref="J34" pin="2"/>
+    </net>
+    <net code="113" name="Net-(C21-Pad2)">
+      <node ref="J34" pin="3"/>
+      <node ref="U12" pin="6"/>
+      <node ref="U12" pin="4"/>
+      <node ref="C21" pin="2"/>
+      <node ref="U12" pin="3"/>
+      <node ref="U12" pin="2"/>
+      <node ref="U12" pin="12"/>
+      <node ref="C22" pin="2"/>
+    </net>
+    <net code="114" name="Net-(J35-Pad1)">
+      <node ref="U13" pin="10"/>
+      <node ref="J35" pin="1"/>
+    </net>
+    <net code="115" name="Net-(J36-Pad2)">
+      <node ref="U13" pin="9"/>
+      <node ref="J36" pin="2"/>
+    </net>
+    <net code="116" name="Net-(J35-Pad2)">
+      <node ref="U13" pin="5"/>
+      <node ref="J35" pin="2"/>
+    </net>
+    <net code="117" name="Net-(U13-Pad7)">
+      <node ref="U13" pin="7"/>
+    </net>
+    <net code="118" name="Net-(U13-Pad8)">
+      <node ref="U13" pin="8"/>
+    </net>
+    <net code="119" name="Net-(C23-Pad1)">
+      <node ref="J36" pin="1"/>
+      <node ref="U13" pin="1"/>
+      <node ref="U13" pin="11"/>
+      <node ref="C24" pin="1"/>
+      <node ref="C23" pin="1"/>
+    </net>
+    <net code="120" name="Net-(C23-Pad2)">
+      <node ref="C23" pin="2"/>
+      <node ref="U13" pin="12"/>
+      <node ref="C24" pin="2"/>
+      <node ref="J36" pin="3"/>
+      <node ref="U13" pin="2"/>
+      <node ref="U13" pin="3"/>
+      <node ref="U13" pin="4"/>
+      <node ref="U13" pin="6"/>
+    </net>
+    <net code="121" name="Net-(J37-Pad1)">
+      <node ref="U14" pin="10"/>
+      <node ref="J37" pin="1"/>
+    </net>
+    <net code="122" name="Net-(J38-Pad2)">
+      <node ref="J38" pin="2"/>
+      <node ref="U14" pin="9"/>
+    </net>
+    <net code="123" name="Net-(J37-Pad2)">
+      <node ref="U14" pin="5"/>
+      <node ref="J37" pin="2"/>
+    </net>
+    <net code="124" name="Net-(U14-Pad7)">
+      <node ref="U14" pin="7"/>
+    </net>
+    <net code="125" name="Net-(U14-Pad8)">
+      <node ref="U14" pin="8"/>
+    </net>
+    <net code="126" name="Net-(C25-Pad1)">
+      <node ref="U14" pin="11"/>
+      <node ref="C26" pin="1"/>
+      <node ref="C25" pin="1"/>
+      <node ref="J38" pin="1"/>
+      <node ref="U14" pin="1"/>
+    </net>
+    <net code="127" name="Net-(C25-Pad2)">
+      <node ref="J38" pin="3"/>
+      <node ref="U14" pin="2"/>
+      <node ref="C25" pin="2"/>
+      <node ref="C26" pin="2"/>
+      <node ref="U14" pin="12"/>
+      <node ref="U14" pin="6"/>
+      <node ref="U14" pin="4"/>
+      <node ref="U14" pin="3"/>
+    </net>
+    <net code="128" name="Net-(U15-Pad8)">
+      <node ref="U15" pin="8"/>
+    </net>
+    <net code="129" name="Net-(U15-Pad7)">
+      <node ref="U15" pin="7"/>
+    </net>
+    <net code="130" name="Net-(J39-Pad1)">
+      <node ref="U15" pin="10"/>
+      <node ref="J39" pin="1"/>
+    </net>
+    <net code="131" name="Net-(C27-Pad1)">
+      <node ref="U15" pin="11"/>
+      <node ref="C28" pin="1"/>
+      <node ref="C27" pin="1"/>
+      <node ref="J40" pin="1"/>
+      <node ref="U15" pin="1"/>
+    </net>
+    <net code="132" name="Net-(J39-Pad2)">
+      <node ref="J39" pin="2"/>
+      <node ref="U15" pin="5"/>
+    </net>
+    <net code="133" name="Net-(J40-Pad2)">
+      <node ref="U15" pin="9"/>
+      <node ref="J40" pin="2"/>
+    </net>
+    <net code="134" name="Net-(C27-Pad2)">
+      <node ref="J40" pin="3"/>
+      <node ref="U15" pin="6"/>
+      <node ref="U15" pin="4"/>
+      <node ref="C27" pin="2"/>
+      <node ref="U15" pin="3"/>
+      <node ref="U15" pin="2"/>
+      <node ref="U15" pin="12"/>
+      <node ref="C28" pin="2"/>
+    </net>
+    <net code="135" name="Net-(J41-Pad1)">
+      <node ref="U16" pin="10"/>
+      <node ref="J41" pin="1"/>
+    </net>
+    <net code="136" name="Net-(J42-Pad2)">
+      <node ref="U16" pin="9"/>
+      <node ref="J42" pin="2"/>
+    </net>
+    <net code="137" name="Net-(J41-Pad2)">
+      <node ref="U16" pin="5"/>
+      <node ref="J41" pin="2"/>
+    </net>
+    <net code="138" name="Net-(U16-Pad7)">
+      <node ref="U16" pin="7"/>
+    </net>
+    <net code="139" name="Net-(U16-Pad8)">
+      <node ref="U16" pin="8"/>
+    </net>
+    <net code="140" name="Net-(C29-Pad1)">
+      <node ref="J42" pin="1"/>
+      <node ref="U16" pin="1"/>
+      <node ref="U16" pin="11"/>
+      <node ref="C30" pin="1"/>
+      <node ref="C29" pin="1"/>
+    </net>
+    <net code="141" name="Net-(C29-Pad2)">
+      <node ref="C29" pin="2"/>
+      <node ref="U16" pin="12"/>
+      <node ref="C30" pin="2"/>
+      <node ref="J42" pin="3"/>
+      <node ref="U16" pin="2"/>
+      <node ref="U16" pin="3"/>
+      <node ref="U16" pin="4"/>
+      <node ref="U16" pin="6"/>
+    </net>
+    <net code="142" name="Net-(J43-Pad1)">
+      <node ref="U17" pin="10"/>
+      <node ref="J43" pin="1"/>
+    </net>
+    <net code="143" name="Net-(J44-Pad2)">
+      <node ref="J44" pin="2"/>
+      <node ref="U17" pin="9"/>
+    </net>
+    <net code="144" name="Net-(J43-Pad2)">
+      <node ref="U17" pin="5"/>
+      <node ref="J43" pin="2"/>
+    </net>
+    <net code="145" name="Net-(U17-Pad7)">
+      <node ref="U17" pin="7"/>
+    </net>
+    <net code="146" name="Net-(U17-Pad8)">
+      <node ref="U17" pin="8"/>
+    </net>
+    <net code="147" name="Net-(C31-Pad1)">
+      <node ref="U17" pin="11"/>
+      <node ref="C32" pin="1"/>
+      <node ref="C31" pin="1"/>
+      <node ref="J44" pin="1"/>
+      <node ref="U17" pin="1"/>
+    </net>
+    <net code="148" name="Net-(C31-Pad2)">
+      <node ref="J44" pin="3"/>
+      <node ref="U17" pin="2"/>
+      <node ref="U17" pin="3"/>
+      <node ref="U17" pin="4"/>
+      <node ref="U17" pin="6"/>
+      <node ref="U17" pin="12"/>
+      <node ref="C32" pin="2"/>
+      <node ref="C31" pin="2"/>
+    </net>
+    <net code="149" name="Net-(U18-Pad8)">
+      <node ref="U18" pin="8"/>
+    </net>
+    <net code="150" name="Net-(U18-Pad7)">
+      <node ref="U18" pin="7"/>
+    </net>
+    <net code="151" name="Net-(J45-Pad1)">
+      <node ref="J45" pin="1"/>
+      <node ref="U18" pin="10"/>
+    </net>
+    <net code="152" name="Net-(C33-Pad1)">
+      <node ref="C34" pin="1"/>
+      <node ref="U18" pin="11"/>
+      <node ref="C33" pin="1"/>
+      <node ref="J46" pin="1"/>
+      <node ref="U18" pin="1"/>
+    </net>
+    <net code="153" name="Net-(J45-Pad2)">
+      <node ref="U18" pin="5"/>
+      <node ref="J45" pin="2"/>
+    </net>
+    <net code="154" name="Net-(J46-Pad2)">
+      <node ref="J46" pin="2"/>
+      <node ref="U18" pin="9"/>
+    </net>
+    <net code="155" name="Net-(C33-Pad2)">
+      <node ref="J46" pin="3"/>
+      <node ref="U18" pin="2"/>
+      <node ref="U18" pin="3"/>
+      <node ref="U18" pin="4"/>
+      <node ref="U18" pin="6"/>
+      <node ref="C33" pin="2"/>
+      <node ref="U18" pin="12"/>
+      <node ref="C34" pin="2"/>
+    </net>
+    <net code="156" name="Net-(J48-Pad2)">
+      <node ref="U19" pin="9"/>
+      <node ref="J48" pin="2"/>
+    </net>
+    <net code="157" name="Net-(U19-Pad8)">
+      <node ref="U19" pin="8"/>
+    </net>
+    <net code="158" name="Net-(U19-Pad7)">
+      <node ref="U19" pin="7"/>
+    </net>
+    <net code="159" name="Net-(J47-Pad2)">
+      <node ref="J47" pin="2"/>
+      <node ref="U19" pin="5"/>
+    </net>
+    <net code="160" name="Net-(C35-Pad2)">
+      <node ref="J48" pin="3"/>
+      <node ref="C35" pin="2"/>
+      <node ref="C36" pin="2"/>
+      <node ref="U19" pin="12"/>
+      <node ref="U19" pin="6"/>
+      <node ref="U19" pin="4"/>
+      <node ref="U19" pin="3"/>
+      <node ref="U19" pin="2"/>
+    </net>
+    <net code="161" name="Net-(J47-Pad1)">
+      <node ref="J47" pin="1"/>
+      <node ref="U19" pin="10"/>
+    </net>
+    <net code="162" name="Net-(C35-Pad1)">
+      <node ref="C35" pin="1"/>
+      <node ref="J48" pin="1"/>
+      <node ref="C36" pin="1"/>
+      <node ref="U19" pin="11"/>
+      <node ref="U19" pin="1"/>
     </net>
   </nets>
 </export>

@@ -37,7 +37,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 1
+Sheet 1 18
 Title "CrazyFlie2.0"
 Date "2018-07-24"
 Rev "1.2"
@@ -911,4 +911,16 @@ Text Notes 9870 5400 0    59   Italic 12
 Camera Slot
 Text Notes 9905 2510 0    59   Italic 12
 ToF Pullups
+$Sheet
+S 8385 5485 1105 780 
+U 5B640D2F
+F0 "ToFSensors" 39
+F1 "ToFSensors.sch" 39
+$EndSheet
+$Sheet
+S 7130 5485 1145 780 
+U 5B640EC2
+F0 "Camera" 39
+F1 "Camera.sch" 39
+$EndSheet
 $EndSCHEMATC
