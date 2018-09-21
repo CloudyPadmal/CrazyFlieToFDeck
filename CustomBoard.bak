@@ -48,29 +48,16 @@ Comment3 "15 Sensor SLAM"
 Comment4 "Obstacle Avoidance"
 $EndDescr
 $Comp
-L PCA9555 U2
-U 1 1 5B574186
-P 4550 3365
-F 0 "U2" H 4550 3255 60  0000 C CNN
-F 1 "PCA9555" H 4550 3485 60  0000 C CNN
-F 2 "Housings_DFN_QFN:QFN-24_4x4mm_Pitch0.5mm" H 4550 3365 60  0001 C CNN
-F 3 "" H 4550 3365 60  0001 C CNN
-	1    4550 3365
-	1    0    0    -1  
-$EndComp
-$Comp
 L LED_ALT D1
 U 1 1 5B574264
-P 2840 2990
-F 0 "D1" H 2840 3090 50  0000 C CNN
-F 1 "POWER_LED" H 2840 2860 50  0000 C CNN
-F 2 "LEDs:LED_0402" H 2840 2990 50  0001 C CNN
-F 3 "" H 2840 2990 50  0001 C CNN
-	1    2840 2990
+P 3695 3290
+F 0 "D1" H 3695 3390 50  0000 C CNN
+F 1 "POWER_LED" H 3695 3160 50  0000 C CNN
+F 2 "LEDs:LED_0402" H 3695 3290 50  0001 C CNN
+F 3 "" H 3695 3290 50  0001 C CNN
+	1    3695 3290
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	2990 2990 3760 2990
 $Comp
 L Conn_01x10 J1
 U 1 1 5B57464F
@@ -114,10 +101,10 @@ Wire Notes Line
 Text Notes 575  6330 0    59   Italic 12
 IO EXPANDER
 $Comp
-L PWR_FLAG #FLG1
+L PWR_FLAG #FLG01
 U 1 1 5B5754C4
 P 725 720
-F 0 "#FLG1" H 725 795 50  0001 C CNN
+F 0 "#FLG01" H 725 795 50  0001 C CNN
 F 1 "PWR_FLAG" H 725 870 50  0000 C CNN
 F 2 "" H 725 720 50  0001 C CNN
 F 3 "" H 725 720 50  0001 C CNN
@@ -125,10 +112,10 @@ F 3 "" H 725 720 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L PWR_FLAG #FLG2
+L PWR_FLAG #FLG02
 U 1 1 5B575536
 P 1245 720
-F 0 "#FLG2" H 1245 795 50  0001 C CNN
+F 0 "#FLG02" H 1245 795 50  0001 C CNN
 F 1 "PWR_FLAG" H 1245 870 50  0000 C CNN
 F 2 "" H 1245 720 50  0001 C CNN
 F 3 "" H 1245 720 50  0001 C CNN
@@ -143,14 +130,6 @@ Wire Wire Line
 	1245 720  1245 810 
 Wire Wire Line
 	725  720  725  805 
-Text GLabel 4475 4155 3    39   Input ~ 0
-GND
-Text GLabel 4175 2335 1    39   Input ~ 0
-GND
-Wire Wire Line
-	4175 2335 4175 2575
-Wire Wire Line
-	4325 2575 4325 2455
 $Comp
 L DS28E05 U1
 U 1 1 5B575B36
@@ -171,37 +150,25 @@ Wire Wire Line
 	2925 6855 3060 6855
 Wire Wire Line
 	3060 7145 2925 7145
-Text GLabel 4925 2335 1    39   Input ~ 0
-SCL
-Wire Wire Line
-	4925 2335 4925 2575
-Text GLabel 4775 2335 1    39   Input ~ 0
-SDA
-Wire Wire Line
-	4775 2335 4775 2575
 $Comp
 L R R1
 U 1 1 5B576269
-P 2360 2990
-F 0 "R1" V 2440 2990 50  0000 C CNN
-F 1 "2k" V 2355 2990 39  0000 C CNN
-F 2 "Resistors_SMD:R_0402" V 2290 2990 50  0001 C CNN
-F 3 "" H 2360 2990 50  0001 C CNN
-	1    2360 2990
+P 3215 3290
+F 0 "R1" V 3295 3290 50  0000 C CNN
+F 1 "2k" V 3210 3290 39  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 3145 3290 50  0001 C CNN
+F 3 "" H 3215 3290 50  0001 C CNN
+	1    3215 3290
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	2510 2990 2690 2990
-Text GLabel 2050 2990 0    39   Input ~ 0
+	3365 3290 3545 3290
+Text GLabel 2905 3290 0    39   Input ~ 0
 VCC
 Wire Wire Line
-	2050 2990 2210 2990
+	2905 3290 3065 3290
 Text Notes 7925 7115 0    59   ~ 0
 Please note the following about the Crazyflie expansion connectors:\n * VCOM is power directly from the battery/USB and is not regulated\n * VCC is regulated to 3.0V\n * VUSB is connected directly to the USB which means this will supply \nat 4.5-5.5V when the USB is connected and can be used for charging\nthe battery when the USB is not connected
-Text GLabel 4625 2335 1    39   Input ~ 0
-VCC
-Wire Wire Line
-	4625 2335 4625 2575
 $Comp
 L C_Small C1
 U 1 1 5B574396
@@ -236,7 +203,7 @@ Text GLabel 9520 945  2    39   Input ~ 0
 SCL
 Text GLabel 9520 1045 2    39   Input ~ 0
 SDA
-Text GLabel 9520 1145 2    39   Input ~ 0
+Text GLabel 10200 1975 2    39   Input ~ 0
 S07
 Text GLabel 9520 1245 2    39   Input ~ 0
 GND
@@ -257,7 +224,7 @@ Text GLabel 9520 1775 2    39   Input ~ 0
 SCL
 Text GLabel 9520 1875 2    39   Input ~ 0
 SDA
-Text GLabel 9520 1975 2    39   Input ~ 0
+Text GLabel 10860 1145 2    39   Input ~ 0
 S08
 Text GLabel 9520 2075 2    39   Input ~ 0
 GND
@@ -278,7 +245,7 @@ Text GLabel 8855 945  2    39   Input ~ 0
 SCL
 Text GLabel 8855 1045 2    39   Input ~ 0
 SDA
-Text GLabel 8855 1145 2    39   Input ~ 0
+Text GLabel 9520 1975 2    39   Input ~ 0
 S05
 Text GLabel 8855 1245 2    39   Input ~ 0
 GND
@@ -299,7 +266,7 @@ Text GLabel 8855 1775 2    39   Input ~ 0
 SCL
 Text GLabel 8855 1875 2    39   Input ~ 0
 SDA
-Text GLabel 8855 1975 2    39   Input ~ 0
+Text GLabel 10200 1145 2    39   Input ~ 0
 S06
 Text GLabel 8855 2075 2    39   Input ~ 0
 GND
@@ -320,7 +287,7 @@ Text GLabel 8180 945  2    39   Input ~ 0
 SCL
 Text GLabel 8180 1045 2    39   Input ~ 0
 SDA
-Text GLabel 8180 1145 2    39   Input ~ 0
+Text GLabel 8855 1975 2    39   Input ~ 0
 S03
 Text GLabel 8180 1245 2    39   Input ~ 0
 GND
@@ -341,7 +308,7 @@ Text GLabel 8180 1775 2    39   Input ~ 0
 SCL
 Text GLabel 8180 1875 2    39   Input ~ 0
 SDA
-Text GLabel 8180 1975 2    39   Input ~ 0
+Text GLabel 9520 1145 2    39   Input ~ 0
 S04
 Text GLabel 8180 2075 2    39   Input ~ 0
 GND
@@ -362,7 +329,7 @@ Text GLabel 7515 945  2    39   Input ~ 0
 SCL
 Text GLabel 7515 1045 2    39   Input ~ 0
 SDA
-Text GLabel 7515 1145 2    39   Input ~ 0
+Text GLabel 8180 1975 2    39   Input ~ 0
 S01
 Text GLabel 7515 1245 2    39   Input ~ 0
 GND
@@ -383,7 +350,7 @@ Text GLabel 7515 1775 2    39   Input ~ 0
 SCL
 Text GLabel 7515 1875 2    39   Input ~ 0
 SDA
-Text GLabel 7515 1975 2    39   Input ~ 0
+Text GLabel 8855 1145 2    39   Input ~ 0
 S02
 Text GLabel 7515 2075 2    39   Input ~ 0
 GND
@@ -404,7 +371,7 @@ Text GLabel 10200 945  2    39   Input ~ 0
 SCL
 Text GLabel 10200 1045 2    39   Input ~ 0
 SDA
-Text GLabel 10200 1145 2    39   Input ~ 0
+Text GLabel 10860 1975 2    39   Input ~ 0
 S09
 Text GLabel 10200 1245 2    39   Input ~ 0
 GND
@@ -425,7 +392,7 @@ Text GLabel 10200 1775 2    39   Input ~ 0
 SCL
 Text GLabel 10200 1875 2    39   Input ~ 0
 SDA
-Text GLabel 10200 1975 2    39   Input ~ 0
+Text GLabel 7515 1145 2    39   Input ~ 0
 S10
 Text GLabel 10200 2075 2    39   Input ~ 0
 GND
@@ -446,7 +413,7 @@ Text GLabel 10860 945  2    39   Input ~ 0
 SCL
 Text GLabel 10860 1045 2    39   Input ~ 0
 SDA
-Text GLabel 10860 1145 2    39   Input ~ 0
+Text GLabel 7515 1975 2    39   Input ~ 0
 S11
 Text GLabel 10860 1245 2    39   Input ~ 0
 GND
@@ -467,36 +434,10 @@ Text GLabel 10860 1775 2    39   Input ~ 0
 SCL
 Text GLabel 10860 1875 2    39   Input ~ 0
 SDA
-Text GLabel 10860 1975 2    39   Input ~ 0
+Text GLabel 8180 1145 2    39   Input ~ 0
 S12
 Text GLabel 10860 2075 2    39   Input ~ 0
 GND
-Text GLabel 3760 3140 0    39   Input ~ 0
-S01
-Text GLabel 3760 3290 0    39   Input ~ 0
-S02
-Text GLabel 3760 3435 0    39   Input ~ 0
-S03
-Text GLabel 3760 3585 0    39   Input ~ 0
-S04
-Text GLabel 3760 3735 0    39   Input ~ 0
-S05
-Text GLabel 4175 4155 3    39   Input ~ 0
-S06
-Text GLabel 4325 4155 3    39   Input ~ 0
-S07
-Text GLabel 4625 4155 3    39   Input ~ 0
-S08
-Text GLabel 4775 4155 3    39   Input ~ 0
-S09
-Text GLabel 4925 4155 3    39   Input ~ 0
-S10
-Text GLabel 5340 3735 2    39   Input ~ 0
-S11
-Text GLabel 5340 3585 2    39   Input ~ 0
-S12
-Text GLabel 5340 3140 2    39   Input ~ 0
-S15
 Wire Notes Line
 	4180 7720 4180 6215
 Text Notes 2450 6325 0    59   Italic 12
@@ -539,7 +480,7 @@ U 1 1 5B58A900
 P 4875 7425
 F 0 "R4" V 4955 7425 50  0000 C CNN
 F 1 "10k" V 4875 7425 39  0000 C CNN
-F 2 "Resistors_SMD:R_0402" V 4805 7425 50  0001 C CNN
+F 2 "Resistors_SMD:R_0603" V 4805 7425 50  0001 C CNN
 F 3 "" H 4875 7425 50  0001 C CNN
 	1    4875 7425
 	1    0    0    -1  
@@ -633,14 +574,8 @@ Wire Notes Line
 	6700 7720 6700 6215
 Text Notes 4240 6335 0    59   Italic 12
 Top ToF
-NoConn ~ 4475 2575
-Text GLabel 5340 2990 2    39   Input ~ 0
-GND
-Wire Wire Line
-	4325 2455 4175 2455
-Connection ~ 4175 2455
 Text GLabel 10335 2765 0    39   Input ~ 0
-S01
+S10
 Text GLabel 10695 2765 2    39   Input ~ 0
 GND
 $Comp
@@ -649,7 +584,7 @@ U 1 1 5B5F423C
 P 10515 2765
 F 0 "R2" V 10430 2780 50  0000 C CNN
 F 1 "10k" V 10515 2765 39  0000 C CNN
-F 2 "Resistors_SMD:R_0402" V 10445 2765 50  0001 C CNN
+F 2 "Resistors_SMD:R_0603" V 10445 2765 50  0001 C CNN
 F 3 "" H 10515 2765 50  0001 C CNN
 	1    10515 2765
 	0    1    1    0   
@@ -659,7 +594,7 @@ Wire Wire Line
 Wire Wire Line
 	10665 2765 10695 2765
 Text GLabel 10335 2955 0    39   Input ~ 0
-S02
+S11
 Text GLabel 10695 2955 2    39   Input ~ 0
 GND
 $Comp
@@ -668,7 +603,7 @@ U 1 1 5B5F4A0C
 P 10515 2955
 F 0 "R3" V 10430 2970 50  0000 C CNN
 F 1 "10k" V 10515 2955 39  0000 C CNN
-F 2 "Resistors_SMD:R_0402" V 10445 2955 50  0001 C CNN
+F 2 "Resistors_SMD:R_0603" V 10445 2955 50  0001 C CNN
 F 3 "" H 10515 2955 50  0001 C CNN
 	1    10515 2955
 	0    1    1    0   
@@ -678,7 +613,7 @@ Wire Wire Line
 Wire Wire Line
 	10665 2955 10695 2955
 Text GLabel 10335 3155 0    39   Input ~ 0
-S03
+S12
 Text GLabel 10695 3155 2    39   Input ~ 0
 GND
 $Comp
@@ -687,7 +622,7 @@ U 1 1 5B5F4B5F
 P 10515 3155
 F 0 "R5" V 10430 3170 50  0000 C CNN
 F 1 "10k" V 10515 3155 39  0000 C CNN
-F 2 "Resistors_SMD:R_0402" V 10445 3155 50  0001 C CNN
+F 2 "Resistors_SMD:R_0603" V 10445 3155 50  0001 C CNN
 F 3 "" H 10515 3155 50  0001 C CNN
 	1    10515 3155
 	0    1    1    0   
@@ -697,7 +632,7 @@ Wire Wire Line
 Wire Wire Line
 	10665 3155 10695 3155
 Text GLabel 10335 3345 0    39   Input ~ 0
-S04
+S01
 Text GLabel 10695 3345 2    39   Input ~ 0
 GND
 $Comp
@@ -706,7 +641,7 @@ U 1 1 5B5F4B69
 P 10515 3345
 F 0 "R6" V 10430 3360 50  0000 C CNN
 F 1 "10k" V 10515 3345 39  0000 C CNN
-F 2 "Resistors_SMD:R_0402" V 10445 3345 50  0001 C CNN
+F 2 "Resistors_SMD:R_0603" V 10445 3345 50  0001 C CNN
 F 3 "" H 10515 3345 50  0001 C CNN
 	1    10515 3345
 	0    1    1    0   
@@ -716,7 +651,7 @@ Wire Wire Line
 Wire Wire Line
 	10665 3345 10695 3345
 Text GLabel 10335 3540 0    39   Input ~ 0
-S05
+S02
 Text GLabel 10695 3540 2    39   Input ~ 0
 GND
 $Comp
@@ -725,7 +660,7 @@ U 1 1 5B5F53E2
 P 10515 3540
 F 0 "R7" V 10430 3555 50  0000 C CNN
 F 1 "10k" V 10515 3540 39  0000 C CNN
-F 2 "Resistors_SMD:R_0402" V 10445 3540 50  0001 C CNN
+F 2 "Resistors_SMD:R_0603" V 10445 3540 50  0001 C CNN
 F 3 "" H 10515 3540 50  0001 C CNN
 	1    10515 3540
 	0    1    1    0   
@@ -735,7 +670,7 @@ Wire Wire Line
 Wire Wire Line
 	10665 3540 10695 3540
 Text GLabel 10335 3730 0    39   Input ~ 0
-S06
+S03
 Text GLabel 10695 3730 2    39   Input ~ 0
 GND
 $Comp
@@ -744,7 +679,7 @@ U 1 1 5B5F53EC
 P 10515 3730
 F 0 "R8" V 10430 3745 50  0000 C CNN
 F 1 "10k" V 10515 3730 39  0000 C CNN
-F 2 "Resistors_SMD:R_0402" V 10445 3730 50  0001 C CNN
+F 2 "Resistors_SMD:R_0603" V 10445 3730 50  0001 C CNN
 F 3 "" H 10515 3730 50  0001 C CNN
 	1    10515 3730
 	0    1    1    0   
@@ -754,7 +689,7 @@ Wire Wire Line
 Wire Wire Line
 	10665 3730 10695 3730
 Text GLabel 10335 3930 0    39   Input ~ 0
-S07
+S04
 Text GLabel 10695 3930 2    39   Input ~ 0
 GND
 $Comp
@@ -763,7 +698,7 @@ U 1 1 5B5F53F6
 P 10515 3930
 F 0 "R9" V 10430 3945 50  0000 C CNN
 F 1 "10k" V 10515 3930 39  0000 C CNN
-F 2 "Resistors_SMD:R_0402" V 10445 3930 50  0001 C CNN
+F 2 "Resistors_SMD:R_0603" V 10445 3930 50  0001 C CNN
 F 3 "" H 10515 3930 50  0001 C CNN
 	1    10515 3930
 	0    1    1    0   
@@ -773,7 +708,7 @@ Wire Wire Line
 Wire Wire Line
 	10665 3930 10695 3930
 Text GLabel 10335 4120 0    39   Input ~ 0
-S08
+S05
 Text GLabel 10695 4120 2    39   Input ~ 0
 GND
 $Comp
@@ -782,7 +717,7 @@ U 1 1 5B5F5400
 P 10515 4120
 F 0 "R10" V 10430 4135 50  0000 C CNN
 F 1 "10k" V 10515 4120 39  0000 C CNN
-F 2 "Resistors_SMD:R_0402" V 10445 4120 50  0001 C CNN
+F 2 "Resistors_SMD:R_0603" V 10445 4120 50  0001 C CNN
 F 3 "" H 10515 4120 50  0001 C CNN
 	1    10515 4120
 	0    1    1    0   
@@ -792,7 +727,7 @@ Wire Wire Line
 Wire Wire Line
 	10665 4120 10695 4120
 Text GLabel 10335 4310 0    39   Input ~ 0
-S09
+S06
 Text GLabel 10695 4310 2    39   Input ~ 0
 GND
 $Comp
@@ -801,7 +736,7 @@ U 1 1 5B5F7426
 P 10515 4310
 F 0 "R11" V 10430 4325 50  0000 C CNN
 F 1 "10k" V 10515 4310 39  0000 C CNN
-F 2 "Resistors_SMD:R_0402" V 10445 4310 50  0001 C CNN
+F 2 "Resistors_SMD:R_0603" V 10445 4310 50  0001 C CNN
 F 3 "" H 10515 4310 50  0001 C CNN
 	1    10515 4310
 	0    1    1    0   
@@ -811,7 +746,7 @@ Wire Wire Line
 Wire Wire Line
 	10665 4310 10695 4310
 Text GLabel 10335 4500 0    39   Input ~ 0
-S10
+S07
 Text GLabel 10695 4500 2    39   Input ~ 0
 GND
 $Comp
@@ -820,7 +755,7 @@ U 1 1 5B5F7430
 P 10515 4500
 F 0 "R12" V 10430 4515 50  0000 C CNN
 F 1 "10k" V 10515 4500 39  0000 C CNN
-F 2 "Resistors_SMD:R_0402" V 10445 4500 50  0001 C CNN
+F 2 "Resistors_SMD:R_0603" V 10445 4500 50  0001 C CNN
 F 3 "" H 10515 4500 50  0001 C CNN
 	1    10515 4500
 	0    1    1    0   
@@ -830,7 +765,7 @@ Wire Wire Line
 Wire Wire Line
 	10665 4500 10695 4500
 Text GLabel 10335 4700 0    39   Input ~ 0
-S11
+S08
 Text GLabel 10695 4700 2    39   Input ~ 0
 GND
 $Comp
@@ -839,7 +774,7 @@ U 1 1 5B5F743A
 P 10515 4700
 F 0 "R13" V 10430 4715 50  0000 C CNN
 F 1 "10k" V 10515 4700 39  0000 C CNN
-F 2 "Resistors_SMD:R_0402" V 10445 4700 50  0001 C CNN
+F 2 "Resistors_SMD:R_0603" V 10445 4700 50  0001 C CNN
 F 3 "" H 10515 4700 50  0001 C CNN
 	1    10515 4700
 	0    1    1    0   
@@ -849,7 +784,7 @@ Wire Wire Line
 Wire Wire Line
 	10665 4700 10695 4700
 Text GLabel 10335 4890 0    39   Input ~ 0
-S12
+S09
 Text GLabel 10695 4890 2    39   Input ~ 0
 GND
 $Comp
@@ -858,7 +793,7 @@ U 1 1 5B5F7444
 P 10515 4890
 F 0 "R14" V 10430 4905 50  0000 C CNN
 F 1 "10k" V 10515 4890 39  0000 C CNN
-F 2 "Resistors_SMD:R_0402" V 10445 4890 50  0001 C CNN
+F 2 "Resistors_SMD:R_0603" V 10445 4890 50  0001 C CNN
 F 3 "" H 10515 4890 50  0001 C CNN
 	1    10515 4890
 	0    1    1    0   
@@ -867,8 +802,6 @@ Wire Wire Line
 	10365 4890 10335 4890
 Wire Wire Line
 	10665 4890 10695 4890
-NoConn ~ 5340 3435
-NoConn ~ 5340 3290
 Wire Notes Line
 	7155 510  7155 2320
 Wire Notes Line
@@ -923,4 +856,60 @@ U 5B640EC2
 F0 "Camera" 39
 F1 "Camera.sch" 39
 $EndSheet
+$Comp
+L PCA9555X U2
+U 1 1 5B658015
+P 4740 3065
+F 0 "U2" H 4740 2115 39  0000 C CNN
+F 1 "PCA9555X" H 4740 3190 39  0000 C CNN
+F 2 "Housings_SSOP:TSSOP-24_4.4x7.8mm_Pitch0.65mm" H 4740 3065 60  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/302/PCA9555A-1127572.pdf" H 4740 3065 60  0001 C CNN
+	1    4740 3065
+	1    0    0    -1  
+$EndComp
+Text GLabel 4340 3890 0    39   Input ~ 0
+GND
+Text GLabel 4340 3815 0    39   Input ~ 0
+S07
+Text GLabel 4340 3740 0    39   Input ~ 0
+S06
+Text GLabel 4340 3665 0    39   Input ~ 0
+S05
+Text GLabel 4340 3590 0    39   Input ~ 0
+S04
+Text GLabel 4340 3515 0    39   Input ~ 0
+S03
+Text GLabel 4340 3440 0    39   Input ~ 0
+S02
+Text GLabel 4340 3365 0    39   Input ~ 0
+S01
+Text GLabel 5165 3890 2    39   Input ~ 0
+S08
+Text GLabel 5165 3815 2    39   Input ~ 0
+S09
+Text GLabel 5165 3740 2    39   Input ~ 0
+S10
+Text GLabel 5165 3665 2    39   Input ~ 0
+S11
+Text GLabel 5165 3590 2    39   Input ~ 0
+S12
+Text GLabel 5165 3365 2    39   Input ~ 0
+S15
+Text GLabel 5165 3290 2    39   Input ~ 0
+GND
+Text GLabel 4340 3140 0    39   Input ~ 0
+GND
+Text GLabel 4340 3215 0    39   Input ~ 0
+GND
+NoConn ~ 4340 3065
+NoConn ~ 5165 3515
+NoConn ~ 5165 3440
+Text GLabel 5165 3215 2    39   Input ~ 0
+SCL
+Text GLabel 5165 3140 2    39   Input ~ 0
+SDA
+Text GLabel 5165 3065 2    39   Input ~ 0
+VCC
+Wire Wire Line
+	4340 3290 3845 3290
 $EndSCHEMATC
